@@ -82,21 +82,21 @@
   .qs-svc-grid { max-width: 100%; }
 }
 
-/* Cost funnel section — light background */
-.qs-funnel-section { background: #F7F5F2; padding: 60px 24px 0; }
-.qs-funnel-inner { max-width: 560px; margin: 0 auto; text-align: center; padding-bottom: 60px; }
-.qs-funnel-heading { font-family: var(--font-serif); font-size: 22px; color: #1a1a1a; font-weight: 700; margin-bottom: 10px; }
-.qs-funnel-sub { font-size: 14px; color: #888; line-height: 1.6; margin-bottom: 32px; }
+/* Cost funnel section — dark, flows from hero */
+.qs-funnel-section { background: #1a1a1a; margin-top: 0; padding: 48px 24px 0; }
+.qs-funnel-inner { max-width: 560px; margin: 0 auto; text-align: center; padding-bottom: 48px; }
+.qs-funnel-heading { font-family: var(--font-serif); font-size: 22px; color: #ffffff; font-weight: 700; margin-bottom: 10px; }
+.qs-funnel-sub { font-size: 14px; color: rgba(255,255,255,0.4); line-height: 1.6; margin-bottom: 32px; }
 .qs-funnel-section .qs-svc-grid { max-width: 100%; }
-.qs-funnel-section .qs-svc-card { background: #ffffff; border-color: rgba(0,0,0,0.1); }
-.qs-funnel-section .qs-svc-card:hover { background: rgba(232,97,10,0.04); border-color: rgba(232,97,10,0.4); }
-.qs-funnel-section .qs-svc-card.sel { background: rgba(232,97,10,0.06); }
-.qs-funnel-section .qs-svc-card i { color: rgba(0,0,0,0.3); }
+.qs-funnel-section .qs-svc-card { background: rgba(255,255,255,0.04); border: 0.5px solid rgba(255,255,255,0.1); }
+.qs-funnel-section .qs-svc-card:hover { background: rgba(232,97,10,0.06); border-color: rgba(232,97,10,0.4); }
+.qs-funnel-section .qs-svc-card.sel { background: rgba(232,97,10,0.08); border: 2px solid #E8610A; }
+.qs-funnel-section .qs-svc-card i { color: rgba(255,255,255,0.25); }
 .qs-funnel-section .qs-svc-card.sel i { color: #E8610A; }
-.qs-funnel-section .qs-svc-name { color: rgba(0,0,0,0.6); }
-.qs-funnel-section .qs-svc-card.sel .qs-svc-name { color: #1a1a1a; }
-.qs-funnel-section .qs-svc-from { color: rgba(0,0,0,0.35); }
-.qs-funnel-section .qs-svc-card.sel .qs-svc-from { color: rgba(232,97,10,0.8); }
+.qs-funnel-section .qs-svc-name { color: rgba(255,255,255,0.7); }
+.qs-funnel-section .qs-svc-card.sel .qs-svc-name { color: #ffffff; }
+.qs-funnel-section .qs-svc-from { color: rgba(255,255,255,0.2); }
+.qs-funnel-section .qs-svc-card.sel .qs-svc-from { color: rgba(232,97,10,0.7); }
 .qs-funnel-section .qs-panel { max-width: 100%; margin-top: 0; }
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600;700&display=swap');
@@ -491,6 +491,7 @@ img { max-width: 100%; display: block; }
 }
 
 .hero-title {
+  display: block;
   font-family: var(--font-serif);
   font-size: clamp(60px, 7.5vw, 108px);
   font-weight: 700;
