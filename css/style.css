@@ -3,6 +3,85 @@
    Dark prestige theme · Funnel-optimised
    ============================================================ */
 
+/* ============================================================
+   HERO FUNNEL
+   ============================================================ */
+
+.qs-hero { background: #1a1a1a; overflow: hidden; }
+.qs-hero-top { padding: 80px 48px 48px; max-width: 960px; margin: 0 auto; }
+.qs-eyebrow { font-size: 11px; color: #E8610A; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 16px; }
+.qs-headline { font-family: 'DM Serif Display', Georgia, serif; font-size: clamp(36px, 5vw, 56px); color: #ffffff; font-weight: 400; line-height: 1.1; margin-bottom: 12px; }
+.qs-headline em { color: #E8610A; font-style: normal; }
+.qs-subline { font-size: 16px; color: rgba(255,255,255,0.4); margin-bottom: 40px; line-height: 1.6; max-width: 480px; }
+.qs-step-label { font-size: 12px; color: rgba(255,255,255,0.35); margin-bottom: 12px; }
+.qs-svc-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 40px; max-width: 480px; }
+.qs-svc-card { background: rgba(255,255,255,0.04); border: 0.5px solid rgba(255,255,255,0.1); border-radius: 10px; padding: 20px 12px; cursor: pointer; text-align: center; transition: all 0.25s ease; font-family: inherit; display: flex; flex-direction: column; align-items: center; }
+.qs-svc-card:hover { border-color: rgba(232,97,10,0.4); background: rgba(232,97,10,0.04); }
+.qs-svc-card.sel { border-color: #E8610A; background: rgba(232,97,10,0.08); }
+.qs-svc-card i { font-size: 24px; color: rgba(255,255,255,0.25); display: block; margin-bottom: 10px; transition: color 0.2s; }
+.qs-svc-card.sel i { color: #E8610A; }
+.qs-svc-name { font-size: 12px; color: rgba(255,255,255,0.5); display: block; line-height: 1.4; transition: color 0.2s; }
+.qs-svc-card.sel .qs-svc-name { color: #ffffff; }
+.qs-svc-from { font-size: 10px; color: rgba(255,255,255,0.2); margin-top: 4px; display: block; transition: color 0.2s; }
+.qs-svc-card.sel .qs-svc-from { color: rgba(232,97,10,0.7); }
+.qs-trust-row { display: flex; gap: 20px; flex-wrap: wrap; border-top: 0.5px solid rgba(255,255,255,0.06); padding-top: 20px; }
+.qs-trust-item { display: flex; align-items: center; gap: 6px; font-size: 12px; color: rgba(255,255,255,0.3); }
+.qs-trust-dot { width: 4px; height: 4px; border-radius: 50%; background: #E8610A; flex-shrink: 0; }
+.qs-panel { background: #1e1e1e; border-top: 0.5px solid rgba(255,255,255,0.06); padding: 32px 48px 40px; display: none; max-width: 960px; margin: 0 auto; }
+.qs-panel.show { display: block; }
+.qs-panel-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px; }
+.qs-panel-label { font-size: 11px; color: #E8610A; letter-spacing: 0.08em; text-transform: uppercase; }
+.qs-close-btn { background: none; border: none; color: rgba(255,255,255,0.25); cursor: pointer; font-size: 16px; padding: 0; transition: color 0.2s; }
+.qs-close-btn:hover { color: rgba(255,255,255,0.6); }
+.qs-prog { display: flex; gap: 4px; margin-bottom: 24px; max-width: 480px; }
+.qs-prog-dot { height: 2px; flex: 1; border-radius: 1px; background: rgba(255,255,255,0.08); transition: background 0.4s ease; }
+.qs-prog-dot.done { background: #E8610A; }
+.qs-q-main { font-size: 18px; color: #ffffff; font-weight: 500; margin-bottom: 6px; line-height: 1.4; max-width: 560px; }
+.qs-q-hint { font-size: 12px; color: rgba(255,255,255,0.3); margin-bottom: 16px; line-height: 1.5; max-width: 480px; }
+.qs-opts { display: flex; flex-direction: column; gap: 8px; max-width: 560px; }
+.qs-opt { background: rgba(255,255,255,0.03); border: 0.5px solid rgba(255,255,255,0.08); border-radius: 10px; padding: 14px 16px; font-size: 14px; color: rgba(255,255,255,0.55); cursor: pointer; text-align: left; font-family: inherit; display: flex; align-items: center; gap: 14px; transition: all 0.2s ease; line-height: 1.4; width: 100%; }
+.qs-opt:hover { border-color: rgba(232,97,10,0.35); color: rgba(255,255,255,0.8); }
+.qs-opt.sel { border-color: #E8610A; color: #ffffff; background: rgba(232,97,10,0.06); }
+.qs-opt-icon { width: 36px; height: 36px; border-radius: 8px; background: rgba(255,255,255,0.05); display: flex; align-items: center; justify-content: center; flex-shrink: 0; transition: background 0.2s; }
+.qs-opt.sel .qs-opt-icon { background: rgba(232,97,10,0.12); }
+.qs-opt-icon i { font-size: 18px; color: rgba(255,255,255,0.3); transition: color 0.2s; }
+.qs-opt.sel .qs-opt-icon i { color: #E8610A; }
+.qs-opt-text { flex: 1; }
+.qs-opt-label { font-size: 14px; color: rgba(255,255,255,0.7); display: block; transition: color 0.2s; font-weight: 400; }
+.qs-opt.sel .qs-opt-label { color: #ffffff; }
+.qs-opt-sub { font-size: 12px; color: rgba(255,255,255,0.25); margin-top: 2px; display: block; transition: color 0.2s; }
+.qs-opt.sel .qs-opt-sub { color: rgba(232,97,10,0.5); }
+.qs-btn-row { display: flex; gap: 10px; margin-top: 16px; max-width: 560px; }
+.qs-back-btn { width: 44px; flex-shrink: 0; background: rgba(255,255,255,0.04); border: 0.5px solid rgba(255,255,255,0.08); border-radius: 10px; cursor: pointer; display: flex; align-items: center; justify-content: center; color: rgba(255,255,255,0.3); font-size: 18px; transition: color 0.2s; }
+.qs-back-btn:hover { color: rgba(255,255,255,0.6); }
+.qs-next-btn { flex: 1; background: #E8610A; color: #ffffff; border: none; border-radius: 10px; padding: 14px; font-size: 14px; font-family: inherit; font-weight: 500; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 8px; transition: opacity 0.2s; }
+.qs-next-btn:disabled { opacity: 0.3; cursor: not-allowed; }
+.qs-next-btn:hover:not(:disabled) { opacity: 0.9; }
+.qs-profile-card { background: rgba(255,255,255,0.03); border: 0.5px solid rgba(255,255,255,0.1); border-radius: 12px; padding: 20px; margin-bottom: 0; max-width: 560px; }
+.qs-pc-label { font-size: 10px; color: rgba(255,255,255,0.3); letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 12px; }
+.qs-pc-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 16px; }
+.qs-pc-tag { background: rgba(232,97,10,0.08); border: 0.5px solid rgba(232,97,10,0.2); border-radius: 100px; padding: 4px 14px; font-size: 12px; color: rgba(255,255,255,0.7); }
+.qs-pc-hook { font-size: 15px; color: #ffffff; font-weight: 500; line-height: 1.5; margin-bottom: 6px; }
+.qs-pc-sub { font-size: 12px; color: rgba(255,255,255,0.3); line-height: 1.6; }
+.qs-lock-badge { display: inline-flex; align-items: center; gap: 6px; background: rgba(232,97,10,0.1); border: 0.5px solid rgba(232,97,10,0.25); border-radius: 6px; padding: 6px 12px; font-size: 11px; color: #E8610A; margin-top: 12px; }
+.qs-fields { display: flex; flex-direction: column; gap: 8px; max-width: 560px; }
+.qs-fields input { width: 100%; background: rgba(255,255,255,0.04); border: 0.5px solid rgba(255,255,255,0.1); border-radius: 10px; padding: 14px 16px; font-size: 14px; color: #ffffff; font-family: inherit; outline: none; transition: border-color 0.2s; }
+.qs-fields input::placeholder { color: rgba(255,255,255,0.25); }
+.qs-fields input:focus { border-color: rgba(232,97,10,0.5); }
+.qs-confirm { text-align: center; padding: 16px 0; max-width: 480px; }
+.qs-confirm i { font-size: 36px; color: #E8610A; display: block; margin-bottom: 14px; }
+.qs-confirm h3 { font-size: 18px; color: #ffffff; font-weight: 500; margin-bottom: 10px; }
+.qs-confirm p { font-size: 13px; color: rgba(255,255,255,0.45); line-height: 1.8; }
+.qs-confirm-detail { background: rgba(255,255,255,0.03); border: 0.5px solid rgba(255,255,255,0.08); border-radius: 10px; padding: 14px 16px; margin-top: 16px; text-align: left; }
+.qs-confirm-detail p { font-size: 11px; color: rgba(255,255,255,0.35); margin-bottom: 4px; }
+.qs-confirm-ref { font-size: 15px; color: #E8610A; font-weight: 500; }
+@media (max-width: 640px) {
+  .qs-hero-top { padding: 48px 24px 32px; }
+  .qs-panel { padding: 24px 24px 32px; }
+  .qs-headline { font-size: 32px; }
+  .qs-svc-grid { max-width: 100%; }
+}
+
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600;700&display=swap');
 
 :root {

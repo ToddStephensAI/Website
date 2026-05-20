@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" />
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23e8651a' rx='8'/><text y='.86em' font-size='58' font-family='Georgia,serif' font-weight='bold' fill='white' x='8'>QD</text></svg>" />
 </head>
 <body>
@@ -70,99 +71,54 @@
   </div>
 
   <!-- HERO -->
-  <section class="hero">
-    <div class="hero-bg" aria-hidden="true"></div>
+  <section id="hero" class="qs-hero">
+    <div class="qs-hero-top">
+      <p class="qs-eyebrow">Quarterstone Developments · Leicester</p>
+      <h1 class="qs-headline">Your home.<br><em>Transformed.</em></h1>
+      <p class="qs-subline">Construction services executed exceptionally well.</p>
 
-    <!-- Architectural elevation drawing — authority background element -->
-    <div class="hero-arch" aria-hidden="true">
-      <svg viewBox="0 0 1000 620" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMax meet">
-        <!-- Main house walls -->
-        <line class="as1" pathLength="1" x1="80" y1="540" x2="80" y2="278" stroke="rgba(255,255,255,0.11)" stroke-width="1.5"/>
-        <line class="as1" pathLength="1" x1="460" y1="540" x2="460" y2="278" stroke="rgba(255,255,255,0.11)" stroke-width="1.5"/>
-        <!-- Roof slopes -->
-        <line class="as2" pathLength="1" x1="80" y1="278" x2="270" y2="118" stroke="rgba(255,255,255,0.11)" stroke-width="1.5"/>
-        <line class="as2" pathLength="1" x1="460" y1="278" x2="270" y2="118" stroke="rgba(255,255,255,0.11)" stroke-width="1.5"/>
-        <!-- Eaves dashed -->
-        <line class="as2" pathLength="1" x1="75" y1="278" x2="465" y2="278" stroke="rgba(255,255,255,0.05)" stroke-width="1" stroke-dasharray="6 14"/>
-        <!-- Ridge -->
-        <line class="as2" pathLength="1" x1="265" y1="118" x2="275" y2="118" stroke="rgba(255,255,255,0.09)" stroke-width="2"/>
-        <!-- Chimney -->
-        <rect class="as3" pathLength="1" x="340" y="86" width="32" height="52" stroke="rgba(255,255,255,0.07)" stroke-width="1" fill="none"/>
-        <line class="as3" pathLength="1" x1="336" y1="138" x2="376" y2="138" stroke="rgba(255,255,255,0.07)" stroke-width="1.5"/>
-        <!-- Ground floor windows (left) -->
-        <rect class="as4" pathLength="1" x="112" y="324" width="108" height="118" stroke="rgba(255,255,255,0.1)" stroke-width="1" fill="none"/>
-        <line class="as4" pathLength="1" x1="166" y1="324" x2="166" y2="442" stroke="rgba(255,255,255,0.055)" stroke-width="0.8"/>
-        <line class="as4" pathLength="1" x1="112" y1="383" x2="220" y2="383" stroke="rgba(255,255,255,0.055)" stroke-width="0.8"/>
-        <line class="as4" pathLength="1" x1="107" y1="442" x2="225" y2="442" stroke="rgba(255,255,255,0.08)" stroke-width="1.2"/>
-        <!-- Ground floor windows (right) -->
-        <rect class="as4" pathLength="1" x="310" y="324" width="108" height="118" stroke="rgba(255,255,255,0.1)" stroke-width="1" fill="none"/>
-        <line class="as4" pathLength="1" x1="364" y1="324" x2="364" y2="442" stroke="rgba(255,255,255,0.055)" stroke-width="0.8"/>
-        <line class="as4" pathLength="1" x1="310" y1="383" x2="418" y2="383" stroke="rgba(255,255,255,0.055)" stroke-width="0.8"/>
-        <line class="as4" pathLength="1" x1="305" y1="442" x2="423" y2="442" stroke="rgba(255,255,255,0.08)" stroke-width="1.2"/>
-        <!-- Front door -->
-        <rect class="as5" pathLength="1" x="215" y="388" width="90" height="152" stroke="rgba(255,255,255,0.1)" stroke-width="1" fill="none"/>
-        <path class="as5" pathLength="1" d="M260 388 Q305 388 305 433" stroke="rgba(255,255,255,0.055)" stroke-width="0.8" fill="none"/>
-        <circle class="as5" pathLength="1" cx="302" cy="464" r="3" stroke="rgba(255,255,255,0.07)" stroke-width="1" fill="none"/>
-        <line class="as5" pathLength="1" x1="202" y1="540" x2="328" y2="540" stroke="rgba(255,255,255,0.08)" stroke-width="2"/>
-        <!-- Dormer / loft window -->
-        <rect class="as6" pathLength="1" x="202" y="186" width="136" height="76" stroke="rgba(255,255,255,0.08)" stroke-width="1" fill="none"/>
-        <line class="as6" pathLength="1" x1="197" y1="186" x2="202" y2="160" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
-        <line class="as6" pathLength="1" x1="338" y1="186" x2="333" y2="160" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
-        <line class="as6" pathLength="1" x1="196" y1="160" x2="338" y2="160" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
-        <!-- EXTENSION — orange (the transformation) -->
-        <rect class="as7" pathLength="1" x="460" y="328" width="248" height="212" stroke="rgba(232,101,26,0.28)" stroke-width="1.5" fill="none"/>
-        <line class="as7" pathLength="1" x1="454" y1="328" x2="714" y2="328" stroke="rgba(232,101,26,0.45)" stroke-width="2.5"/>
-        <!-- Extension large bifold glazing -->
-        <rect class="as7" pathLength="1" x="480" y="352" width="205" height="160" stroke="rgba(232,101,26,0.2)" stroke-width="1" fill="none"/>
-        <line class="as7" pathLength="1" x1="549" y1="352" x2="549" y2="512" stroke="rgba(232,101,26,0.13)" stroke-width="0.8"/>
-        <line class="as7" pathLength="1" x1="618" y1="352" x2="618" y2="512" stroke="rgba(232,101,26,0.13)" stroke-width="0.8"/>
-        <!-- Extension flat roof parapet detail -->
-        <line class="as7" pathLength="1" x1="460" y1="328" x2="460" y2="298" stroke="rgba(232,101,26,0.18)" stroke-width="1"/>
-        <line class="as7" pathLength="1" x1="710" y1="328" x2="710" y2="298" stroke="rgba(232,101,26,0.18)" stroke-width="1"/>
-        <line class="as7" pathLength="1" x1="454" y1="298" x2="716" y2="298" stroke="rgba(232,101,26,0.14)" stroke-width="1" stroke-dasharray="5 9"/>
-        <!-- Ground line -->
-        <line class="as1" pathLength="1" x1="38" y1="540" x2="755" y2="540" stroke="rgba(255,255,255,0.09)" stroke-width="1.5"/>
-        <!-- Dimension ticks -->
-        <line class="as8" pathLength="1" x1="38" y1="533" x2="38" y2="547" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
-        <line class="as8" pathLength="1" x1="460" y1="533" x2="460" y2="547" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
-        <line class="as8" pathLength="1" x1="710" y1="533" x2="710" y2="547" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
-        <!-- Left height datum -->
-        <line class="as8" pathLength="1" x1="38" y1="540" x2="38" y2="118" stroke="rgba(255,255,255,0.035)" stroke-width="1"/>
-        <line class="as8" pathLength="1" x1="32" y1="540" x2="44" y2="540" stroke="rgba(255,255,255,0.065)" stroke-width="1"/>
-        <line class="as8" pathLength="1" x1="32" y1="278" x2="44" y2="278" stroke="rgba(255,255,255,0.065)" stroke-width="1"/>
-        <line class="as8" pathLength="1" x1="32" y1="118" x2="44" y2="118" stroke="rgba(255,255,255,0.065)" stroke-width="1"/>
-        <line class="as8" pathLength="1" x1="32" y1="328" x2="44" y2="328" stroke="rgba(232,101,26,0.2)" stroke-width="1"/>
-        <!-- Compass -->
-        <circle class="as9" pathLength="1" cx="832" cy="168" r="20" stroke="rgba(255,255,255,0.055)" stroke-width="1" fill="none"/>
-        <line class="as9" pathLength="1" x1="832" y1="148" x2="832" y2="188" stroke="rgba(255,255,255,0.055)" stroke-width="1"/>
-        <line class="as9" pathLength="1" x1="812" y1="168" x2="852" y2="168" stroke="rgba(255,255,255,0.055)" stroke-width="1"/>
-      </svg>
+      <p class="qs-step-label">What are you looking to transform?</p>
+      <div class="qs-svc-grid">
+        <button class="qs-svc-card" onclick="qsPickSvc('garage',this)">
+          <i class="ti ti-car-garage" aria-hidden="true"></i>
+          <span class="qs-svc-name">Garage conversion</span>
+          <span class="qs-svc-from">From £9,600</span>
+        </button>
+        <button class="qs-svc-card" onclick="qsPickSvc('loft',this)">
+          <i class="ti ti-building" aria-hidden="true"></i>
+          <span class="qs-svc-name">Loft conversion</span>
+          <span class="qs-svc-from">From £20,000</span>
+        </button>
+        <button class="qs-svc-card" onclick="qsPickSvc('roof',this)">
+          <i class="ti ti-home-2" aria-hidden="true"></i>
+          <span class="qs-svc-name">Re-roofing</span>
+          <span class="qs-svc-from">From £5,000</span>
+        </button>
+      </div>
+
+      <div class="qs-trust-row">
+        <div class="qs-trust-item"><div class="qs-trust-dot"></div>Free no-obligation survey</div>
+        <div class="qs-trust-item"><div class="qs-trust-dot"></div>Fixed-price quotes</div>
+        <div class="qs-trust-item"><div class="qs-trust-dot"></div>10-year guarantee</div>
+      </div>
     </div>
 
-    <div class="hero-content">
-      <div class="container">
-        <div class="hero-inner">
-          <div class="hero-eyebrow">Leicester's Home Transformation Specialists</div>
-
-          <h1>
-            <span class="hero-title">Your home.</span>
-            <span class="hero-title-accent">Transformed.</span>
-          </h1>
-
-          <p class="hero-sub">Construction services executed exceptionally well.</p>
-
-          <div class="hero-actions">
-            <a href="#book" class="btn-primary">Book your free survey <span class="arrow">→</span></a>
-            <a href="services.html" class="btn-ghost">View services</a>
-          </div>
-
-          <div class="hero-proof">
-            <div class="hero-proof-item"><span class="tick">✓</span> Free survey, no obligation</div>
-            <div class="hero-proof-item"><span class="tick">✓</span> Fixed-price quotes</div>
-            <div class="hero-proof-item"><span class="tick">✓</span> 10-year guarantee</div>
-            <div class="hero-proof-item"><span class="tick">✓</span> Senior-led on every job</div>
-          </div>
-        </div>
+    <div class="qs-panel" id="qs-panel">
+      <div class="qs-panel-header">
+        <span class="qs-panel-label" id="qs-panel-label"></span>
+        <button class="qs-close-btn" onclick="qsClosePanel()" aria-label="Close">✕</button>
+      </div>
+      <div class="qs-prog" id="qs-prog"></div>
+      <p class="qs-q-main" id="qs-q-main"></p>
+      <p class="qs-q-hint" id="qs-q-hint"></p>
+      <div id="qs-content"></div>
+      <div class="qs-btn-row" id="qs-btn-row">
+        <button class="qs-back-btn" id="qs-back-btn" onclick="qsGoBack()" aria-label="Go back" style="display:none">
+          <i class="ti ti-arrow-left" aria-hidden="true"></i>
+        </button>
+        <button class="qs-next-btn" id="qs-next-btn" disabled onclick="qsGoNext()">
+          Next <i class="ti ti-arrow-right" aria-hidden="true"></i>
+        </button>
       </div>
     </div>
   </section>
@@ -565,6 +521,271 @@
       setTimeout(function () { tagline.classList.add('is-on'); }, 2880);
       setTimeout(exitIntro, 3450);
     }());
+  </script>
+
+  <script>
+  (function() {
+    var svc = null, intent = null, step = 0;
+    var answers = [], flow = [], profileTags = [];
+    var S_Q = 'q', S_P = 'p', S_C = 'c', S_D = 'd';
+    var state = S_Q;
+    var svcLabels = { garage: 'Garage conversion', loft: 'Loft conversion', roof: 'Re-roofing' };
+    var intentLabels = { advice: 'Getting advice', quote: 'Personalised quote', company: 'Finding the right company' };
+    var intentKeys = ['advice', 'quote', 'company'];
+    function o(icon, label, sub) { return { icon: icon, label: label, sub: sub || '' }; }
+    var intentStep = {
+      q: 'How can we help?',
+      h: 'This shapes the conversation — no wasted time on either side.',
+      opts: [
+        o('ti-message-circle',     'I\'d like some advice',          'Not sure where to start'),
+        o('ti-file-invoice-pound', 'I want a personalised quote',    'I know what I need'),
+        o('ti-search',             'I\'m finding the right company', 'Comparing options'),
+      ]
+    };
+    var qs = {
+      garage: {
+        advice: [
+          { q: 'What would you like advice on?', h: 'We\'ll make sure the call covers exactly this.', opts: [
+            o('ti-ruler','Is my project feasible?',''), o('ti-currency-pound','What will it cost?',''),
+            o('ti-file-description','Planning and building regs',''), o('ti-calendar','Timescales',''),
+          ]},
+          { q: 'Integral or detached garage?', h: 'This shapes the structural approach — useful before we speak.', opts: [
+            o('ti-home','Integral — inside the house','Most common in Leicester'),
+            o('ti-building','Attached — separate structure',''), o('ti-home-off','Detached — standalone',''),
+            o('ti-help-circle','Not sure',''),
+          ]},
+        ],
+        quote: [
+          { q: 'Integral or detached garage?', h: 'The biggest cost factor — essential to get right.', opts: [
+            o('ti-home','Integral — inside the house','Typically lower cost'),
+            o('ti-building','Attached — separate structure',''), o('ti-home-off','Detached — standalone','May need more structural work'),
+          ]},
+          { q: 'What will the space become?', h: 'Determines insulation, electrics and finish level.', opts: [
+            o('ti-device-laptop','Home office',''), o('ti-bed','Extra bedroom','Building regs included'),
+            o('ti-barbell','Gym or studio',''), o('ti-sofa','Living room',''),
+          ]},
+          { q: 'Does the garage have electrics?', h: 'If not, we include full installation in your quote — no surprises.', opts: [
+            o('ti-bolt','Yes — has a supply',''), o('ti-bolt-off','No — none currently','Included in your quote'),
+            o('ti-help-circle','Not sure','We\'ll check at survey'),
+          ]},
+          { q: 'What finish level?', h: 'Shapes materials, fixtures and the final look.', opts: [
+            o('ti-star','Standard — clean and functional',''), o('ti-star-half','Mid-range — quality throughout','Most popular'),
+            o('ti-crown','Premium — high spec','Best materials, bespoke touches'),
+          ]},
+        ],
+        company: [
+          { q: 'What matters most to you?', h: 'We\'d rather know now if we\'re the right fit.', opts: [
+            o('ti-medal','Quality of finish',''), o('ti-shield-check','Reliability and communication',''),
+            o('ti-currency-pound','Fixed transparent pricing',''), o('ti-clock','Delivered on time',''),
+          ]},
+          { q: 'Had a bad experience with a builder?', h: 'We ask because it shapes how we run your project.', opts: [
+            o('ti-mood-sad','Yes — I\'m cautious','Completely understandable'),
+            o('ti-mood-neutral','No — but I\'ve heard stories',''), o('ti-mood-happy','No bad experiences',''),
+          ]},
+        ],
+      },
+      loft: {
+        advice: [
+          { q: 'What would you like advice on?', h: 'We\'ll make the call useful — not a sales pitch.', opts: [
+            o('ti-ruler','Can my loft be converted?','We\'ll be honest'), o('ti-triangle','Which type suits my home?','Velux, dormer, hip-to-gable'),
+            o('ti-currency-pound','What will it cost?',''), o('ti-file-description','Planning and building regs',''),
+          ]},
+          { q: 'What type of roof do you have?', h: 'Helps us give useful advice before the visit.', opts: [
+            o('ti-triangle','Pitched — standard pointed','Suits most conversions'),
+            o('ti-home-2','Hip — slopes on all sides','Hip-to-gable likely needed'),
+            o('ti-help-circle','Not sure','We\'ll assess at survey'),
+          ]},
+        ],
+        quote: [
+          { q: 'What type of roof do you have?', h: 'Determines which conversion is possible — essential for accuracy.', opts: [
+            o('ti-triangle','Pitched — standard pointed',''), o('ti-home-2','Hip — slopes on all sides',''),
+            o('ti-help-circle','Not sure','We\'ll confirm at survey'),
+          ]},
+          { q: 'What will the loft become?', h: 'Shapes the staircase, bathroom and finish level.', opts: [
+            o('ti-bed','Bedroom only',''), o('ti-bath','Bedroom with en-suite','Most popular — adds most value'),
+            o('ti-crown','Master suite','Full bathroom'), o('ti-device-laptop','Home office','No bathroom needed'),
+          ]},
+          { q: 'Is the loft currently boarded?', h: 'Helps us estimate access and prep in your quote.', opts: [
+            o('ti-layout-board','Yes — I use it for storage',''), o('ti-box','No — open rafters',''),
+            o('ti-help-circle','Not sure',''),
+          ]},
+          { q: 'What finish level?', h: 'Shapes materials, fixtures and quality of the space.', opts: [
+            o('ti-star','Standard — clean and functional',''), o('ti-star-half','Mid-range — quality throughout','Most popular'),
+            o('ti-crown','Premium — high spec','Bespoke finishes'),
+          ]},
+        ],
+        company: [
+          { q: 'What matters most to you?', h: 'We\'d rather know this upfront.', opts: [
+            o('ti-medal','Quality and craftsmanship',''), o('ti-shield-check','Communication and reliability',''),
+            o('ti-currency-pound','Fair fixed pricing',''), o('ti-certificate','Experience and accreditations',''),
+          ]},
+          { q: 'Had a bad experience with a builder?', h: 'It changes how we approach your project.', opts: [
+            o('ti-mood-sad','Yes — I\'m cautious','We understand — let\'s change that'),
+            o('ti-mood-neutral','No — but I want to be careful',''), o('ti-mood-happy','No bad experiences',''),
+          ]},
+        ],
+      },
+      roof: {
+        advice: [
+          { q: 'What would you like advice on?', h: 'We\'ll make sure the call is actually useful.', opts: [
+            o('ti-ruler','Do I need a full re-roof?','We\'ll give you an honest answer'),
+            o('ti-layers','Which material suits my home?',''), o('ti-currency-pound','What will it cost?',''),
+            o('ti-calendar','Timescales',''),
+          ]},
+          { q: 'Any known issues with the roof?', h: 'Helps us understand urgency before we speak.', opts: [
+            o('ti-droplet','Yes — active leaks','We can prioritise your survey'),
+            o('ti-alert-triangle','Missing or damaged tiles',''), o('ti-eye','No obvious issues','Planning ahead'),
+            o('ti-help-circle','Not sure',''),
+          ]},
+        ],
+        quote: [
+          { q: 'What type of property?', h: 'Determines roof area and scaffolding — both affect cost.', opts: [
+            o('ti-home','Terraced','Typically 40–55m²'), o('ti-building-community','Semi-detached','Typically 55–75m²'),
+            o('ti-home-2','Detached','Typically 75–120m²'), o('ti-home-eco','Bungalow','Larger footprint'),
+          ]},
+          { q: 'Current roof material?', h: 'Knowing what\'s there helps us price accurately.', opts: [
+            o('ti-stack','Concrete tiles','Most common in Leicester'), o('ti-stack-2','Clay tiles',''),
+            o('ti-layers','Natural slate',''), o('ti-help-circle','Not sure','We\'ll confirm at survey'),
+          ]},
+          { q: 'Does the property have a chimney?', h: 'Chimneys need lead flashing — we include this in quotes upfront.', opts: [
+            o('ti-building-factory','Yes — one chimney','Lead flashing included'),
+            o('ti-building-factory-2','Yes — two or more',''), o('ti-x','No chimney',''),
+          ]},
+          { q: 'Any known issues with the roof?', h: 'Helps us understand urgency and prioritise.', opts: [
+            o('ti-droplet','Yes — active leaks','We can prioritise'),
+            o('ti-alert-triangle','Damaged or missing tiles',''), o('ti-eye','No obvious issues',''),
+            o('ti-help-circle','Not sure',''),
+          ]},
+        ],
+        company: [
+          { q: 'What matters most to you?', h: 'We\'d rather know this upfront.', opts: [
+            o('ti-medal','Quality materials and finish',''), o('ti-shield-check','Turning up when promised',''),
+            o('ti-currency-pound','No hidden costs',''), o('ti-certificate','Written guarantee',''),
+          ]},
+          { q: 'Had a bad experience with a roofer?', h: 'More common than it should be — shapes how we work.', opts: [
+            o('ti-mood-sad','Yes — I\'m cautious','We\'d be too'),
+            o('ti-mood-neutral','No — but I\'ve heard stories',''), o('ti-mood-happy','No bad experiences',''),
+          ]},
+        ],
+      },
+    };
+    function scrollToHero() {
+      setTimeout(function() {
+        var hero = document.getElementById('hero');
+        if (!hero) return;
+        var heroCenter = hero.getBoundingClientRect().top + window.pageYOffset + (hero.offsetHeight / 2);
+        window.scrollTo({ top: Math.max(0, heroCenter - window.innerHeight / 2), behavior: 'smooth' });
+      }, 120);
+    }
+    function buildOpts(opts, stepIdx) {
+      return '<div class="qs-opts">' + opts.map(function(opt, i) {
+        var sel = answers[stepIdx] === i ? ' sel' : '';
+        return '<button class="qs-opt' + sel + '" onclick="qsPickOpt(' + i + ',this)">' +
+          '<div class="qs-opt-icon"><i class="ti ' + opt.icon + '" aria-hidden="true"></i></div>' +
+          '<div class="qs-opt-text"><span class="qs-opt-label">' + opt.label + '</span>' +
+          (opt.sub ? '<span class="qs-opt-sub">' + opt.sub + '</span>' : '') +
+          '</div></button>';
+      }).join('') + '</div>';
+    }
+    function updateProg() {
+      var total = Math.max(flow.length, 1) + 3;
+      var done = state === S_Q ? step + 1 : state === S_P ? flow.length + 1 : state === S_C ? flow.length + 2 : flow.length + 3;
+      var html = '';
+      for (var i = 0; i < total; i++) html += '<div class="qs-prog-dot' + (i < done ? ' done' : '') + '"></div>';
+      document.getElementById('qs-prog').innerHTML = html;
+    }
+    function renderStep() {
+      updateProg(); state = S_Q;
+      var s = flow[step];
+      document.getElementById('qs-q-main').textContent = s.q;
+      document.getElementById('qs-q-hint').textContent = s.h;
+      document.getElementById('qs-content').innerHTML = buildOpts(s.opts, step);
+      document.getElementById('qs-next-btn').disabled = answers[step] === undefined;
+      document.getElementById('qs-next-btn').innerHTML = 'Next <i class="ti ti-arrow-right" aria-hidden="true"></i>';
+      document.getElementById('qs-btn-row').style.display = 'flex';
+      document.getElementById('qs-back-btn').style.display = step === 0 ? 'none' : 'flex';
+    }
+    function renderProfile() {
+      state = S_P; updateProg();
+      document.getElementById('qs-q-main').textContent = '';
+      document.getElementById('qs-q-hint').textContent = '';
+      var tags = profileTags.map(function(t) { return '<span class="qs-pc-tag">' + t + '</span>'; }).join('');
+      var hookText = intent === 'quote' ? 'Your personalised quote is ready to prepare.' : intent === 'advice' ? 'We\'re ready for your call.' : 'Let\'s show you why Quarterstone is different.';
+      var subText = intent === 'quote' ? 'Enter your details and we\'ll prepare a detailed quote for your specific project. We\'ll call within 24 hours to walk through the numbers.' : intent === 'advice' ? 'Enter your details and we\'ll call within 24 hours — no sales pitch, just useful advice.' : 'Enter your details and we\'ll call within 24 hours for a genuine conversation about your project.';
+      var btnTxt = intent === 'quote' ? 'Get my personalised quote' : intent === 'advice' ? 'Book my free call' : 'Book my free survey';
+      document.getElementById('qs-content').innerHTML = '<div class="qs-profile-card"><p class="qs-pc-label">Your project profile</p><div class="qs-pc-tags">' + tags + '</div><p class="qs-pc-hook">' + hookText + '</p><p class="qs-pc-sub">' + subText + '</p><div class="qs-lock-badge"><i class="ti ti-lock" style="font-size:12px" aria-hidden="true"></i> Enter your details to unlock</div></div>';
+      document.getElementById('qs-next-btn').disabled = false;
+      document.getElementById('qs-next-btn').innerHTML = btnTxt + ' <i class="ti ti-arrow-right" aria-hidden="true"></i>';
+      document.getElementById('qs-btn-row').style.display = 'flex';
+      document.getElementById('qs-back-btn').style.display = 'flex';
+      scrollToHero();
+    }
+    function renderContact() {
+      state = S_C; updateProg();
+      var what = intent === 'quote' ? 'personalised quote' : intent === 'advice' ? 'advice call' : 'free survey';
+      var btnTxt = intent === 'quote' ? 'Send me my quote' : intent === 'advice' ? 'Book my call' : 'Book my free survey';
+      document.getElementById('qs-q-main').textContent = 'Almost there.';
+      document.getElementById('qs-q-hint').textContent = 'We\'ll use your details to prepare your ' + what + ' and make sure the right person calls you.';
+      document.getElementById('qs-content').innerHTML = '<div class="qs-fields"><input type="text" placeholder="Your name" autocomplete="name"><input type="tel" placeholder="Mobile number" autocomplete="tel"><input type="text" placeholder="Full address" autocomplete="street-address"><input type="text" placeholder="Postcode" autocomplete="postal-code"></div>';
+      document.getElementById('qs-next-btn').disabled = false;
+      document.getElementById('qs-next-btn').innerHTML = btnTxt + ' <i class="ti ti-arrow-right" aria-hidden="true"></i>';
+      document.getElementById('qs-btn-row').style.display = 'flex';
+      document.getElementById('qs-back-btn').style.display = 'flex';
+      scrollToHero();
+    }
+    function renderConfirm() {
+      state = S_D; updateProg();
+      var ref = 'QS-' + Math.floor(1000 + Math.random() * 9000);
+      var title = intent === 'quote' ? 'Quote on its way.' : intent === 'advice' ? 'Call booked.' : 'Survey booked.';
+      var msg = intent === 'quote' ? 'We\'re preparing your personalised quote. We\'ll call within 24 hours to walk through the numbers and arrange your free survey.' : intent === 'advice' ? 'We\'ll call within 24 hours — prepared for your project, no sales pitch.' : 'Expect something different. We\'ll call within 24 hours to arrange your free survey.';
+      document.getElementById('qs-q-main').textContent = '';
+      document.getElementById('qs-q-hint').textContent = '';
+      document.getElementById('qs-content').innerHTML = '<div class="qs-confirm"><i class="ti ti-circle-check" aria-hidden="true"></i><h3>' + title + '</h3><p>' + msg + '</p><div class="qs-confirm-detail"><p>Your reference number</p><p class="qs-confirm-ref">' + ref + '</p></div></div>';
+      document.getElementById('qs-btn-row').style.display = 'none';
+      scrollToHero();
+    }
+    window.qsPickSvc = function(key, btn) {
+      svc = key; intent = null; step = 0; answers = []; flow = [intentStep]; profileTags = [svcLabels[key]]; state = S_Q;
+      document.querySelectorAll('.qs-svc-card').forEach(function(c) { c.classList.remove('sel'); });
+      btn.classList.add('sel');
+      document.getElementById('qs-panel-label').textContent = svcLabels[key];
+      document.getElementById('qs-panel').classList.add('show');
+      renderStep(); scrollToHero();
+    };
+    window.qsPickOpt = function(idx, btn) {
+      answers[step] = idx;
+      document.querySelectorAll('#qs-content .qs-opt').forEach(function(o) { o.classList.remove('sel'); });
+      btn.classList.add('sel');
+      document.getElementById('qs-next-btn').disabled = false;
+      if (step === 0) {
+        intent = intentKeys[idx];
+        document.getElementById('qs-panel-label').textContent = svcLabels[svc] + ' · ' + intentLabels[intent];
+        flow = [intentStep].concat(qs[svc][intent]);
+        profileTags = [svcLabels[svc], intentLabels[intent]];
+        updateProg();
+      } else {
+        var label = flow[step].opts[idx].label;
+        if (profileTags.length < 6 && label !== 'Not sure') profileTags.push(label);
+      }
+      setTimeout(function() { window.qsGoNext(); }, 380);
+    };
+    window.qsGoNext = function() {
+      if (state === S_Q && step < flow.length - 1) { step++; renderStep(); }
+      else if (state === S_Q) { renderProfile(); }
+      else if (state === S_P) { renderContact(); }
+      else if (state === S_C) { renderConfirm(); }
+    };
+    window.qsGoBack = function() {
+      if (state === S_C) { renderProfile(); }
+      else if (state === S_P) { step = flow.length - 1; renderStep(); }
+      else if (state === S_Q && step > 0) { step--; renderStep(); }
+    };
+    window.qsClosePanel = function() {
+      document.getElementById('qs-panel').classList.remove('show');
+      document.querySelectorAll('.qs-svc-card').forEach(function(c) { c.classList.remove('sel'); });
+      svc = null; intent = null; step = 0; answers = []; flow = []; profileTags = []; state = S_Q;
+    };
+  })();
   </script>
 </body>
 </html>
