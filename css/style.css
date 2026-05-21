@@ -20,10 +20,9 @@
   position: absolute;
   top: 0; right: 0; bottom: 0;
   width: 65%;
+  background-image: url('images/house-terrace.jpg');
   background-size: cover;
-  background-position: center;
-  transition: opacity 0.8s ease;
-  opacity: 0;
+  background-position: center 40%;
   mask-image: linear-gradient(to right, transparent 0%, rgba(0,0,0,0.6) 25%, black 60%);
   -webkit-mask-image: linear-gradient(to right, transparent 0%, rgba(0,0,0,0.6) 25%, black 60%);
 }

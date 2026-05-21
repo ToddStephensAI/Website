@@ -522,27 +522,5 @@
 
 
 
-  <script>
-  (function() {
-    var images = [
-      'images/loft-conversion-dormer.jpg',
-      'images/house-terrace.jpg',
-      'images/roofing-tiles.jpg'
-    ];
-    var current = 0;
-    var bg = document.getElementById('nh-bg');
-    if (!bg) return;
-    bg.style.backgroundImage = 'url(' + images[0] + ')';
-    bg.style.opacity = '1';
-    setInterval(function() {
-      bg.style.opacity = '0';
-      setTimeout(function() {
-        current = (current + 1) % images.length;
-        bg.style.backgroundImage = 'url(' + images[current] + ')';
-        bg.style.opacity = '1';
-      }, 800);
-    }, 7000);
-  })();
-  </script>
 </body>
 </html>
