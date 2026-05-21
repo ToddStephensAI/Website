@@ -4,7 +4,7 @@
    ============================================================ */
 
 /* ============================================================
-   NEW HERO — SPLIT LAYOUT
+   QUARTERSTONE HERO — COMPLETE CSS
    ============================================================ */
 
 .new-hero {
@@ -12,33 +12,31 @@
   min-height: 100vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  align-items: stretch;
   position: relative;
   overflow: hidden;
 }
 
-/* LEFT — text */
+/* LEFT COLUMN */
 .nh-left {
-  padding: 120px 48px 80px 64px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   position: relative;
-  z-index: 2;
+  display: flex;
+  align-items: center;
+  padding: 140px 48px 100px 64px;
 }
 .nh-glow {
   position: absolute;
   top: 20%;
   left: -10%;
-  width: 60%;
+  width: 70%;
   height: 60%;
-  background: radial-gradient(ellipse at center, rgba(232,97,10,0.08) 0%, transparent 70%);
+  background: radial-gradient(ellipse at center, rgba(232,97,10,0.09) 0%, transparent 70%);
   pointer-events: none;
   z-index: 0;
 }
 .nh-text {
   position: relative;
   z-index: 1;
+  max-width: 520px;
 }
 .nh-eyebrow {
   font-size: 11px;
@@ -47,15 +45,17 @@
   text-transform: uppercase;
   font-weight: 500;
   margin-bottom: 20px;
+  margin-top: 0;
 }
 .nh-headline {
   font-family: 'DM Serif Display', Georgia, serif;
-  font-size: clamp(48px, 5.5vw, 80px);
+  font-size: clamp(48px, 5vw, 78px);
   color: #ffffff;
   font-weight: 400;
   line-height: 1.05;
   letter-spacing: -0.02em;
-  margin-bottom: 20px;
+  margin-bottom: 22px;
+  margin-top: 0;
 }
 .nh-headline em {
   color: #E8610A;
@@ -63,10 +63,11 @@
 }
 .nh-subline {
   font-size: 17px;
-  color: rgba(255,255,255,0.45);
+  color: rgba(255,255,255,0.42);
   line-height: 1.7;
   margin-bottom: 40px;
-  max-width: 440px;
+  margin-top: 0;
+  max-width: 420px;
 }
 .nh-trust {
   display: flex;
@@ -75,26 +76,33 @@
 }
 .nh-trust-item {
   font-size: 13px;
-  color: rgba(255,255,255,0.4);
+  color: rgba(255,255,255,0.38);
   display: flex;
   align-items: center;
   gap: 8px;
+  margin: 0;
 }
 .nh-tick {
   color: #E8610A;
   font-weight: 500;
+  font-size: 14px;
+  flex-shrink: 0;
 }
 
-/* RIGHT — image bleeds edge-to-edge */
+/* RIGHT COLUMN */
 .nh-right {
-  padding: 0;
-  position: relative;
-  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 48px 48px 48px 0;
 }
 .nh-img-wrap {
-  position: absolute;
-  inset: 0;
+  width: 100%;
+  height: calc(100vh - 96px);
+  max-height: 820px;
+  border-radius: 20px;
   overflow: hidden;
+  position: relative;
 }
 .nh-img-wrap img {
   width: 100%;
@@ -107,14 +115,9 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 260px;
+  width: 140px;
   height: 100%;
-  background: linear-gradient(to right,
-    #0f0f0f 0%,
-    rgba(15,15,15,0.85) 30%,
-    rgba(15,15,15,0.3) 65%,
-    transparent 100%
-  );
+  background: linear-gradient(to right, #0f0f0f, transparent);
   pointer-events: none;
   z-index: 1;
 }
@@ -123,47 +126,51 @@
   bottom: 0;
   left: 0;
   right: 0;
-  height: 120px;
-  background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.55));
+  height: 100px;
+  background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.45));
   pointer-events: none;
   z-index: 1;
 }
 
-/* Bottom section fade */
+/* BOTTOM FADE INTO NEXT SECTION */
 .nh-bottom-fade {
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
-  height: 100px;
+  height: 120px;
   background: linear-gradient(to bottom, transparent, #1a1a1a);
   pointer-events: none;
   z-index: 3;
 }
 
-/* Mobile */
+/* MOBILE */
 @media (max-width: 768px) {
   .new-hero {
     grid-template-columns: 1fr;
     min-height: auto;
   }
-  .nh-left {
-    padding: 100px 24px 40px;
-    order: 2;
-    min-height: auto;
-  }
   .nh-right {
     order: 1;
-    min-height: 50vh;
+    padding: 0;
+    height: 45vh;
   }
   .nh-img-wrap {
-    min-height: 50vh;
+    height: 100%;
+    border-radius: 0;
+    max-height: none;
   }
   .nh-img-fade-left { display: none; }
   .nh-img-fade-bottom {
-    height: 100px;
+    height: 80px;
     background: linear-gradient(to bottom, transparent, #0f0f0f);
   }
+  .nh-left {
+    order: 2;
+    padding: 40px 24px 80px;
+  }
+  .nh-headline { font-size: 42px; }
+  .nh-subline { font-size: 15px; }
 }
 
 /* ============================================================
