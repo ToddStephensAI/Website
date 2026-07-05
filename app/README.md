@@ -14,7 +14,41 @@ Stack: Next.js 16 (App Router) + Tailwind CSS, Supabase (Postgres, Auth, Storage
 
 ## Setup
 
-### 1. Create a Supabase project
+There are two ways to get a Supabase backend for this: a **local one** (runs on your machine via
+Docker, no account needed, good for just trying the app out) or a **hosted one** (a real Supabase
+project, needed once you want to actually use this with real contractors/customers). Pick one.
+
+### 1a. Local Supabase (Docker, no account needed)
+
+Requires [Docker Desktop](https://www.docker.com/products/docker-desktop/) running.
+
+```bash
+npx supabase start
+```
+
+The first run pulls several images and takes a few minutes. When it finishes it prints a block
+like this — keep it, you need the values in step 2:
+
+```
+API_URL: http://127.0.0.1:54321
+ANON_KEY: eyJ...
+SERVICE_ROLE_KEY: eyJ...
+STUDIO_URL: http://127.0.0.1:54323   # Postgres/table browser in your browser
+```
+
+Then load the schema into the local database:
+
+```bash
+psql "postgresql://postgres:postgres@127.0.0.1:54322/postgres" -f supabase/schema.sql
+```
+
+(No `psql`? `brew install libpq` on macOS, or run the same command through `docker exec` against
+the `supabase_db_app` container.)
+
+Skip to step 2 using the local `API_URL`/`ANON_KEY`/`SERVICE_ROLE_KEY` above. To stop the local
+stack later: `npx supabase stop`.
+
+### 1b. Hosted Supabase project
 
 Create a free project at [supabase.com](https://supabase.com). In the SQL editor, run the entire
 contents of [`supabase/schema.sql`](./supabase/schema.sql). This creates all tables, Row Level
@@ -22,8 +56,7 @@ Security policies, and the `project-photos` storage bucket.
 
 ### 2. Configure environment variables
 
-Copy `.env.local.example` to `.env.local` and fill in the values from your Supabase project
-settings (Settings → API):
+Copy `.env.local.example` to `.env.local` and fill in the values from step 1a or 1b:
 
 ```
 NEXT_PUBLIC_SUPABASE_URL=https://<project-ref>.supabase.co
@@ -34,13 +67,33 @@ SUPABASE_SERVICE_ROLE_KEY=<service_role key>
 The service role key is only used server-side (to invite new contractor/customer accounts from
 the People page) — never expose it to the browser.
 
-By default Supabase sends invite emails from its own domain. For production, set up a custom SMTP
-sender under Authentication → Settings so invites arrive from your own address.
+With a hosted project, Supabase sends invite emails from its own domain by default; for
+production set up a custom SMTP sender under Authentication → Settings so invites arrive from your
+own address. With the local stack, invite emails aren't sent anywhere — view them instead at
+`http://127.0.0.1:54324` (Inbucket).
 
 ### 3. Create your own admin account
 
 Since every other account is invited from the People page, you need to bootstrap the first admin
-manually:
+manually.
+
+**Local stack** — create the user via the API and insert the profile in one go:
+
+```bash
+curl -X POST 'http://127.0.0.1:54321/auth/v1/admin/users' \
+  -H "apikey: <SERVICE_ROLE_KEY>" -H "Authorization: Bearer <SERVICE_ROLE_KEY>" \
+  -H "Content-Type: application/json" \
+  -d '{"email":"you@example.com","password":"<pick-a-password>","email_confirm":true}'
+```
+
+Copy the `id` from the response, then:
+
+```bash
+psql "postgresql://postgres:postgres@127.0.0.1:54322/postgres" \
+  -c "insert into profiles (id, role, full_name) values ('<id-from-above>', 'admin', 'Your Name');"
+```
+
+**Hosted project**:
 
 1. In Supabase, go to Authentication → Users → Add user, create yourself with an email/password.
 2. In the SQL editor, run:
@@ -48,7 +101,8 @@ manually:
    insert into profiles (id, role, full_name)
    values ('<your-user-id-from-step-1>', 'admin', 'Your Name');
    ```
-3. Sign in at `/login` — you'll land on `/admin`.
+
+Either way, sign in at `/login` — you'll land on `/admin`.
 
 ### 4. Run locally
 

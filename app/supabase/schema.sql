@@ -111,6 +111,17 @@ create function auth_role() returns user_role as $$
 $$ language sql stable security definer;
 
 -- ============================================================
+-- Grants (RLS policies below restrict rows, but Postgres also requires the
+-- base table privilege before it evaluates any policy — hosted Supabase
+-- projects apply these by default, but a fresh/local Postgres won't)
+-- ============================================================
+grant usage on schema public to anon, authenticated, service_role;
+grant all on all tables in schema public to anon, authenticated, service_role;
+grant all on all sequences in schema public to anon, authenticated, service_role;
+alter default privileges in schema public grant all on tables to anon, authenticated, service_role;
+alter default privileges in schema public grant all on sequences to anon, authenticated, service_role;
+
+-- ============================================================
 -- Row Level Security
 -- ============================================================
 alter table profiles enable row level security;
