@@ -80,6 +80,6 @@ you're ready and they can be added:
 
 ## Deploying
 
-This app lives in the `/app` subfolder of the `website` repo so it doesn't interfere with the
-marketing site. Deploy it as its own Vercel project with the **root directory** set to `app/`, and
+This app lives in the `/CRM` subfolder of the `website` repo so it doesn't interfere with the
+marketing site. Deploy it as its own Vercel project with the **root directory** set to `CRM/`, and
 add the same environment variables there.
