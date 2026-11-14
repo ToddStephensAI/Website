@@ -15,12 +15,12 @@ https://energyconcernsltd.co.uk/sigenergy-installer-leicester/,/sigenergy-instal
 https://energyconcernsltd.co.uk/guides/ozev-grant-2025/,/guides/ozev-grant-2025/,guide,,,28,9510,13.2,21,7549,12.5,move,/guides/ozev-grant-2025/,Guide with demand: move content and address unchanged
 https://energyconcernsltd.co.uk/products/sigenergy-battery-10kwh/,/products/sigenergy-battery-10kwh/,product,,,26,3487,9.8,14,1921,10.6,review,/products/sigenergy-battery-10kwh/,Has demand; keep if Todd fits this product (CONFIRM product list)
 https://energyconcernsltd.co.uk/about/,/about/,core,,,26,2170,8.7,18,1352,6.9,merge,/the-chameleon-principle,About content lives on The Chameleon Principle
-https://energyconcernsltd.co.uk/solar-panels-birmingham/,/solar-panels-birmingham/,town-service,birmingham,outside,24,18344,25,17,10831,19.5,review,/services/solar,Outside target area but earned 24 clicks in 12m
+https://energyconcernsltd.co.uk/solar-panels-birmingham/,/solar-panels-birmingham/,town-service,birmingham,avoid,24,18344,25,17,10831,19.5,retire,/services/solar,Outside target area
 https://energyconcernsltd.co.uk/brands/hypervolt/,/brands/hypervolt/,brand,,,22,1803,15.3,17,1539,16.6,review,/brands/hypervolt/,Has demand; keep if Todd fits this product (CONFIRM product list)
 https://energyconcernsltd.co.uk/solar-panels-northampton/,/solar-panels-northampton/,town-hub,northampton,3,21,23226,19.4,17,15920,17.6,move,/solar-panels-northampton/,Tier 3 town hub: solar + battery + solar-and-battery
 https://energyconcernsltd.co.uk/contact/,/contact/,core,,,21,1916,14.7,11,1121,13.8,merge,/get-started,Enquiries go through the Leon funnel
 https://energyconcernsltd.co.uk/ev-chargers/,/ev-chargers/,core,,,20,7040,27.3,11,3814,22.7,merge,/services/ev-charging,Old service page; or rename Framer slug to keep this address (CONFIRM)
-https://energyconcernsltd.co.uk/solar-panels-coventry/,/solar-panels-coventry/,town-service,coventry,outside,19,9424,11.4,12,6321,9.2,review,/services/solar,Outside target area but earned 19 clicks in 12m
+https://energyconcernsltd.co.uk/solar-panels-coventry/,/solar-panels-coventry/,town-hub,coventry,warks,19,9424,11.4,12,6321,9.2,move,/solar-panels-coventry/,Tier warks town hub: solar + battery + solar-and-battery
 https://energyconcernsltd.co.uk/solar-panels-leicester/,/solar-panels-leicester/,town-hub,leicester,2,19,7287,31.3,12,4567,29,move,/solar-panels-leicester/,Tier 2 town hub: solar + battery + solar-and-battery
 https://energyconcernsltd.co.uk/battery-storage/,/battery-storage/,core,,,19,3349,21.6,17,2542,20.6,merge,/services/battery,Old service page; or rename Framer slug to keep this address (CONFIRM)
 https://energyconcernsltd.co.uk/battery-storage-northampton/,/battery-storage-northampton/,town-service,northampton,3,18,12582,22.7,10,5471,34.1,move,/battery-storage-northampton/,"Own page: demand (12582 impr, 18 clicks in 12m)"
@@ -31,7 +31,7 @@ https://energyconcernsltd.co.uk/air-conditioning-leicester/,/air-conditioning-le
 https://energyconcernsltd.co.uk/guides/solar-panels-grants-leicestershire,/guides/solar-panels-grants-leicestershire,variant,,,13,1408,11.2,0,0,,merge,/guides/solar-panels-grants-leicestershire/,No-trailing-slash duplicate
 https://energyconcernsltd.co.uk/solar-panels-milton-keynes/,/solar-panels-milton-keynes/,town-hub,milton-keynes,3,11,10200,18,9,6323,15.9,move,/solar-panels-milton-keynes/,Tier 3 town hub: solar + battery + solar-and-battery
 https://energyconcernsltd.co.uk/solar-panels-shrewsbury/,/solar-panels-shrewsbury/,town-service,shrewsbury,outside,10,7028,15.4,10,5064,14,review,/services/solar,Outside target area but earned 10 clicks in 12m
-https://energyconcernsltd.co.uk/solar-panels-nuneaton/,/solar-panels-nuneaton/,town-service,nuneaton,outside,10,3924,29,8,2306,26.6,review,/services/solar,Outside target area but earned 10 clicks in 12m
+https://energyconcernsltd.co.uk/solar-panels-nuneaton/,/solar-panels-nuneaton/,town-hub,nuneaton,warks,10,3924,29,8,2306,26.6,move,/solar-panels-nuneaton/,Tier warks town hub: solar + battery + solar-and-battery
 https://energyconcernsltd.co.uk/solar-panels-nottingham/,/solar-panels-nottingham/,town-hub,nottingham,3,9,6643,25.4,6,4368,20.8,move,/solar-panels-nottingham/,Tier 3 town hub: solar + battery + solar-and-battery
 https://energyconcernsltd.co.uk/solar-panels-hereford/,/solar-panels-hereford/,town-service,hereford,outside,9,4744,21.8,6,3006,19.7,retire,/services/solar,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/solar-panels-stoke-on-trent/,/solar-panels-stoke-on-trent/,town-service,stoke-on-trent,outside,9,3618,24.9,4,1774,20.9,retire,/services/solar,"Outside target area, low traffic"
@@ -54,25 +54,25 @@ https://energyconcernsltd.co.uk/reviews/,/reviews/,core,,,7,67,10.4,2,6,2,move,/
 https://energyconcernsltd.co.uk/solar-panels-oxford/,/solar-panels-oxford/,town-service,oxford,outside,6,20891,20.5,3,16909,16.9,retire,/services/solar,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/battery-storage-oxford/,/battery-storage-oxford/,town-service,oxford,outside,6,18351,8.1,4,17458,7.5,retire,/services/battery,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/solar-panels-corby/,/solar-panels-corby/,town-service,corby,outside,6,6433,20.2,4,3842,18,retire,/services/solar,"Outside target area, low traffic"
-https://energyconcernsltd.co.uk/solar-panels-walsall/,/solar-panels-walsall/,town-service,walsall,outside,6,4724,29.5,4,2691,25.1,retire,/services/solar,"Outside target area, low traffic"
+https://energyconcernsltd.co.uk/solar-panels-walsall/,/solar-panels-walsall/,town-service,walsall,avoid,6,4724,29.5,4,2691,25.1,retire,/services/solar,Outside target area
 https://energyconcernsltd.co.uk/solar-panels-burton-upon-trent/,/solar-panels-burton-upon-trent/,town-service,burton-upon-trent,outside,6,2606,21.5,3,1205,20,retire,/services/solar,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/solar-panels-loughborough/,/solar-panels-loughborough/,town-hub,loughborough,2,6,1862,29.9,5,1096,24.9,move,/solar-panels-loughborough/,Tier 2 town hub: solar + battery + solar-and-battery
 https://energyconcernsltd.co.uk/ev-chargers-shrewsbury/,/ev-chargers-shrewsbury/,town-service,shrewsbury,outside,6,1648,17.7,5,1156,14.9,retire,/services/ev-charging,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/blog/solar-panels-peterborough-guide/,/blog/solar-panels-peterborough-guide/,blog-outside,,,6,1573,15.5,3,1015,13.1,retire,/blog/,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/blog/planning-permission-solar-panels-leicestershire/,/blog/planning-permission-solar-panels-leicestershire/,blog,,,6,1142,22.1,5,964,21.4,move,/blog/planning-permission-solar-panels-leicestershire/,Article with demand: move unchanged
-https://energyconcernsltd.co.uk/ev-chargers-coventry/,/ev-chargers-coventry/,town-service,coventry,outside,6,733,14.6,5,661,12.7,retire,/services/ev-charging,"Outside target area, low traffic"
+https://energyconcernsltd.co.uk/ev-chargers-coventry/,/ev-chargers-coventry/,town-service,coventry,warks,6,733,14.6,5,661,12.7,move,/ev-chargers-coventry/,"Own page: demand (733 impr, 6 clicks in 12m)"
 https://energyconcernsltd.co.uk/guides/tesla-powerwall-vs-sigenergy,/guides/tesla-powerwall-vs-sigenergy,variant,,,6,641,9.9,0,1,4,merge,/guides/tesla-powerwall-vs-sigenergy/,No-trailing-slash duplicate
 https://energyconcernsltd.co.uk/blog/home-battery-storage-east-midlands-2026/,/blog/home-battery-storage-east-midlands-2026/,blog,,,6,439,6.7,3,305,6.6,move,/blog/home-battery-storage-east-midlands-2026/,Article with demand: move unchanged
 https://energyconcernsltd.co.uk/solar-panels-kettering/,/solar-panels-kettering/,town-service,kettering,outside,5,8120,16.2,5,4938,15.1,retire,/services/solar,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/solar-panels-leamington-spa/,/solar-panels-leamington-spa/,town-service,leamington-spa,outside,5,4914,19.4,3,2466,18,retire,/services/solar,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/solar-panels/,/solar-panels/,core,,,5,4289,42,2,2769,38.9,merge,/services/solar,Old service page; or rename Framer slug to keep this address (CONFIRM)
-https://energyconcernsltd.co.uk/blog/solar-panels-rugby-guide/,/blog/solar-panels-rugby-guide/,blog-outside,,,5,3015,14.4,5,2126,13.7,retire,/blog/,"Outside target area, low traffic"
+https://energyconcernsltd.co.uk/blog/solar-panels-rugby-guide/,/blog/solar-panels-rugby-guide/,blog-town,rugby,warks,5,3015,14.4,5,2126,13.7,merge,/solar-panels-rugby/,Town guide: fold local content into Tier warks hub
 https://energyconcernsltd.co.uk/solar-panels-lichfield/,/solar-panels-lichfield/,town-service,lichfield,outside,5,2537,28,3,1395,26.6,retire,/services/solar,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/blog/solar-panels-solihull-guide/,/blog/solar-panels-solihull-guide/,blog-outside,,,5,1927,15.2,1,1154,14.6,retire,/blog/,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/blog/ev-chargers-staffordshire-lichfield-guide/,/blog/ev-chargers-staffordshire-lichfield-guide/,blog-outside,,,5,1861,13.9,4,874,11.9,retire,/blog/,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/brands/tesla/,/brands/tesla/,brand,,,5,1045,50.9,2,305,36.4,review,/brands/tesla/,Has demand; keep if Todd fits this product (CONFIRM product list)
 https://energyconcernsltd.co.uk/battery-storage-peterborough/,/battery-storage-peterborough/,town-service,peterborough,outside,5,979,18.7,3,918,19.2,retire,/services/battery,"Outside target area, low traffic"
-https://energyconcernsltd.co.uk/battery-storage-birmingham/,/battery-storage-birmingham/,town-service,birmingham,outside,5,969,25.1,3,693,20.8,retire,/services/battery,"Outside target area, low traffic"
+https://energyconcernsltd.co.uk/battery-storage-birmingham/,/battery-storage-birmingham/,town-service,birmingham,avoid,5,969,25.1,3,693,20.8,retire,/services/battery,Outside target area
 https://energyconcernsltd.co.uk/products/ja-solar-deep-blue/,/products/ja-solar-deep-blue/,product,,,5,673,8.8,2,440,9.6,review,/products/ja-solar-deep-blue/,Has demand; keep if Todd fits this product (CONFIRM product list)
 https://energyconcernsltd.co.uk/guides/ozev-grant-2025,/guides/ozev-grant-2025,variant,,,5,672,13.7,0,0,,merge,/guides/ozev-grant-2025/,No-trailing-slash duplicate
 https://energyconcernsltd.co.uk/products/,/products/,core,,,5,481,21.2,1,195,24.8,review,/products/,Products index; depends on product list (CONFIRM)
@@ -81,14 +81,14 @@ https://energyconcernsltd.co.uk/brands/samsung/,/brands/samsung/,brand,,,5,356,3
 https://energyconcernsltd.co.uk/guides/warm-homes-loan-lenders-explained/,/guides/warm-homes-loan-lenders-explained/,guide,,,5,239,6.3,5,239,6.3,move,/guides/warm-homes-loan-lenders-explained/,Guide with demand: move content and address unchanged
 https://energyconcernsltd.co.uk/re-roofing-and-solar/,/re-roofing-and-solar/,core,,,5,164,28.5,2,103,28.8,merge,/services/re-roofing,Old service page
 https://energyconcernsltd.co.uk/battery-storage-banbury/,/battery-storage-banbury/,town-service,banbury,outside,4,4838,19.6,4,3104,15.2,retire,/services/battery,"Outside target area, low traffic"
-https://energyconcernsltd.co.uk/commercial-solar/,/commercial-solar/,core,,,4,2205,15.8,3,1270,15.2,review,,No commercial page on Framer site; does Todd want commercial work?
+https://energyconcernsltd.co.uk/commercial-solar/,/commercial-solar/,core,,,4,2205,15.8,3,1270,15.2,move,/commercial-solar/,"Commercial is a target (Todd, 14 Nov): page needed on Framer"
 https://energyconcernsltd.co.uk/blog/solar-panels-oxford-guide/,/blog/solar-panels-oxford-guide/,blog-outside,,,4,1969,32.7,2,1243,34.2,retire,/blog/,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/solar-panels-grantham/,/solar-panels-grantham/,town-service,grantham,outside,4,1796,27.8,2,741,26.3,retire,/services/solar,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/blog/solar-panels-kidderminster-worcestershire-guide/,/blog/solar-panels-kidderminster-worcestershire-guide/,blog-outside,,,4,1785,11,3,1187,11.5,retire,/blog/,"Outside target area, low traffic"
-https://energyconcernsltd.co.uk/ev-chargers-wolverhampton/,/ev-chargers-wolverhampton/,town-service,wolverhampton,outside,4,1465,15.7,3,1222,14.2,retire,/services/ev-charging,"Outside target area, low traffic"
+https://energyconcernsltd.co.uk/ev-chargers-wolverhampton/,/ev-chargers-wolverhampton/,town-service,wolverhampton,avoid,4,1465,15.7,3,1222,14.2,retire,/services/ev-charging,Outside target area
 https://energyconcernsltd.co.uk/solar-panels-blaby/,/solar-panels-blaby/,town-hub,blaby,2,4,1319,40.4,2,695,34.7,move,/solar-panels-blaby/,Tier 2 town hub: solar + battery + solar-and-battery
 https://energyconcernsltd.co.uk/products/sigenergy-sigenstor/,/products/sigenergy-sigenstor/,product,,,4,672,30.9,1,330,40,review,/products/sigenergy-sigenstor/,Has demand; keep if Todd fits this product (CONFIRM product list)
-https://energyconcernsltd.co.uk/battery-storage-solihull/,/battery-storage-solihull/,town-service,solihull,outside,4,668,14.5,2,506,15.3,retire,/services/battery,"Outside target area, low traffic"
+https://energyconcernsltd.co.uk/battery-storage-solihull/,/battery-storage-solihull/,town-service,solihull,avoid,4,668,14.5,2,506,15.3,retire,/services/battery,Outside target area
 https://energyconcernsltd.co.uk/battery-storage-nottingham/,/battery-storage-nottingham/,town-service,nottingham,3,4,594,9.8,3,355,7.7,move,/battery-storage-nottingham/,"Own page: demand (594 impr, 4 clicks in 12m)"
 https://energyconcernsltd.co.uk/zappi-ev-charger-installer-leicester/,/zappi-ev-charger-installer-leicester/,town-service,leicester,2,4,578,19.7,3,380,16.4,move,/zappi-ev-charger-installer-leicester/,"Own page: demand (578 impr, 4 clicks in 12m)"
 https://energyconcernsltd.co.uk/blog/tesla-powerwall-3-leicestershire/,/blog/tesla-powerwall-3-leicestershire/,blog,,,4,567,18.9,3,452,17,move,/blog/tesla-powerwall-3-leicestershire/,Article with demand: move unchanged
@@ -99,28 +99,28 @@ https://energyconcernsltd.co.uk/brands/sigenergy/,/brands/sigenergy/,brand,,,4,3
 https://energyconcernsltd.co.uk/ev-chargers-swadlincote/,/ev-chargers-swadlincote/,town-service,swadlincote,outside,4,327,21.9,4,217,14,retire,/services/ev-charging,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/ev-chargers-oakham/,/ev-chargers-oakham/,town-service,oakham,outside,4,309,13.7,4,252,13.3,retire,/services/ev-charging,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/blog/solar-panels-rural-east-midlands-farms/,/blog/solar-panels-rural-east-midlands-farms/,blog,,,4,298,11.9,3,217,7.8,move,/blog/solar-panels-rural-east-midlands-farms/,Article with demand: move unchanged
-https://energyconcernsltd.co.uk/battery-storage-wolverhampton/,/battery-storage-wolverhampton/,town-service,wolverhampton,outside,4,247,14,2,166,14,retire,/services/battery,"Outside target area, low traffic"
+https://energyconcernsltd.co.uk/battery-storage-wolverhampton/,/battery-storage-wolverhampton/,town-service,wolverhampton,avoid,4,247,14,2,166,14,retire,/services/battery,Outside target area
 https://energyconcernsltd.co.uk/wp-content/uploads/2023/02/A2-Solar-DO-NOT-USE.pdf,/wp-content/uploads/2023/02/A2-Solar-DO-NOT-USE.pdf,asset,,,4,170,9.6,0,0,,none,,Old WordPress file; let 404/410
 https://energyconcernsltd.co.uk/products/tesla-powerwall-3/,/products/tesla-powerwall-3/,product,,,3,3529,69.9,1,2083,78,review,/products/tesla-powerwall-3/,Has demand; keep if Todd fits this product (CONFIRM product list)
-https://energyconcernsltd.co.uk/solar-panels-solihull/,/solar-panels-solihull/,town-service,solihull,outside,3,2974,25.4,2,1774,20.1,retire,/services/solar,"Outside target area, low traffic"
+https://energyconcernsltd.co.uk/solar-panels-solihull/,/solar-panels-solihull/,town-service,solihull,avoid,3,2974,25.4,2,1774,20.1,retire,/services/solar,Outside target area
 https://energyconcernsltd.co.uk/ev-chargers-northampton/,/ev-chargers-northampton/,town-service,northampton,3,3,2408,17.5,3,2091,16.3,move,/ev-chargers-northampton/,"Own page: demand (2408 impr, 3 clicks in 12m)"
 https://energyconcernsltd.co.uk/solar-panels-kidderminster/,/solar-panels-kidderminster/,town-service,kidderminster,outside,3,2360,32.2,1,1348,30.5,retire,/services/solar,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/solar-panels-hinckley/,/solar-panels-hinckley/,town-hub,hinckley,1,3,2128,21,1,1252,18.8,move,/solar-panels-hinckley/,Tier 1 town hub: solar + battery + solar-and-battery
 https://energyconcernsltd.co.uk/guides/ev-charger-home-buyers-guide/,/guides/ev-charger-home-buyers-guide/,guide,,,3,1722,19.4,3,1351,18.2,move,/guides/ev-charger-home-buyers-guide/,Guide with demand: move content and address unchanged
 https://energyconcernsltd.co.uk/areas-we-cover/,/areas-we-cover/,core,,,3,1356,27.6,3,667,15,move,/areas-we-cover/,"Planned areas page, links to town pages (stage 3)"
-https://energyconcernsltd.co.uk/ev-chargers-birmingham/,/ev-chargers-birmingham/,town-service,birmingham,outside,3,1343,29.5,3,863,28.2,retire,/services/ev-charging,"Outside target area, low traffic"
+https://energyconcernsltd.co.uk/ev-chargers-birmingham/,/ev-chargers-birmingham/,town-service,birmingham,avoid,3,1343,29.5,3,863,28.2,retire,/services/ev-charging,Outside target area
 https://energyconcernsltd.co.uk/solar-panels-milton-keynes,/solar-panels-milton-keynes,variant,,,3,1175,30.7,1,1,5,merge,/solar-panels-milton-keynes/,No-trailing-slash duplicate
 https://energyconcernsltd.co.uk/solar-panels-melton-mowbray/,/solar-panels-melton-mowbray/,town-hub,melton-mowbray,2,3,1106,31.8,3,575,30.2,move,/solar-panels-melton-mowbray/,Tier 2 town hub: solar + battery + solar-and-battery
-https://energyconcernsltd.co.uk/blog/solar-panels-nuneaton-guide/,/blog/solar-panels-nuneaton-guide/,blog-outside,,,3,1104,25.8,3,723,26.9,retire,/blog/,"Outside target area, low traffic"
+https://energyconcernsltd.co.uk/blog/solar-panels-nuneaton-guide/,/blog/solar-panels-nuneaton-guide/,blog-town,nuneaton,warks,3,1104,25.8,3,723,26.9,merge,/solar-panels-nuneaton/,Town guide: fold local content into Tier warks hub
 https://energyconcernsltd.co.uk/tesla-powerwall-castle-donington/,/tesla-powerwall-castle-donington/,town-service,castle-donington,2,3,974,18.8,1,802,16.1,move,/tesla-powerwall-castle-donington/,"Own page: demand (974 impr, 3 clicks in 12m)"
 https://energyconcernsltd.co.uk/solar-panels-enderby/,/solar-panels-enderby/,town-hub,enderby,2,3,940,37.6,2,404,34.6,move,/solar-panels-enderby/,Tier 2 town hub: solar + battery + solar-and-battery
 https://energyconcernsltd.co.uk/guides/solar-panels-leicestershire-complete-guide/,/guides/solar-panels-leicestershire-complete-guide/,guide,,,3,679,20.1,2,644,20.1,move,/guides/solar-panels-leicestershire-complete-guide/,Guide with demand: move content and address unchanged
 https://energyconcernsltd.co.uk/solar-panels-swadlincote/,/solar-panels-swadlincote/,town-service,swadlincote,outside,3,647,19.8,3,531,17.6,retire,/services/solar,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/blog/solar-panels-stamford-rutland-guide/,/blog/solar-panels-stamford-rutland-guide/,blog-outside,,,3,618,26.3,2,375,26,retire,/blog/,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/ev-chargers-hinckley/,/ev-chargers-hinckley/,town-service,hinckley,1,3,577,23.2,3,367,21.8,move,/ev-chargers-hinckley/,"Own page: demand (577 impr, 3 clicks in 12m)"
-https://energyconcernsltd.co.uk/battery-storage-rugby/,/battery-storage-rugby/,town-service,rugby,outside,3,503,38.9,2,421,38.2,retire,/services/battery,"Outside target area, low traffic"
-https://energyconcernsltd.co.uk/blog/commercial-battery-storage-peak-shaving-east-midlands/,/blog/commercial-battery-storage-peak-shaving-east-midlands/,blog,,,3,500,14.2,3,458,13.5,move,/blog/commercial-battery-storage-peak-shaving-east-midlands/,Article with demand: move unchanged
-https://energyconcernsltd.co.uk/battery-storage-coventry/,/battery-storage-coventry/,town-service,coventry,outside,3,481,22.3,3,376,24.4,retire,/services/battery,"Outside target area, low traffic"
+https://energyconcernsltd.co.uk/battery-storage-rugby/,/battery-storage-rugby/,town-service,rugby,warks,3,503,38.9,2,421,38.2,move,/battery-storage-rugby/,"Own page: demand (503 impr, 3 clicks in 12m)"
+https://energyconcernsltd.co.uk/blog/commercial-battery-storage-peak-shaving-east-midlands/,/blog/commercial-battery-storage-peak-shaving-east-midlands/,blog-commercial,,,3,500,14.2,3,458,13.5,move,/blog/commercial-battery-storage-peak-shaving-east-midlands/,"Commercial work is a target (Todd, 14 Nov)"
+https://energyconcernsltd.co.uk/battery-storage-coventry/,/battery-storage-coventry/,town-service,coventry,warks,3,481,22.3,3,376,24.4,merge,/solar-panels-coventry/,Fold into Tier warks town hub
 https://energyconcernsltd.co.uk/battery-storage-grantham/,/battery-storage-grantham/,town-service,grantham,outside,3,412,43.1,3,228,43.7,retire,/services/battery,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/solar-panels-thorpe-astley/,/solar-panels-thorpe-astley/,town-hub,thorpe-astley,2,3,389,21.2,2,220,18.7,move,/solar-panels-thorpe-astley/,Tier 2 town hub: solar + battery + solar-and-battery
 https://energyconcernsltd.co.uk/ev-chargers-market-harborough/,/ev-chargers-market-harborough/,town-service,market-harborough,2,3,388,15.1,3,350,15.3,merge,/services/ev-charging,Not part of solar/battery hub; low demand
@@ -133,22 +133,22 @@ https://energyconcernsltd.co.uk/brands/hypervolt,/brands/hypervolt,variant,,,3,1
 https://energyconcernsltd.co.uk/ev-chargers-grantham/,/ev-chargers-grantham/,town-service,grantham,outside,3,160,36.8,2,57,27.5,retire,/services/ev-charging,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/energy-planning-call/,/energy-planning-call/,core,,,3,86,14.7,2,57,14.4,merge,/get-started,Funnel offers the 15-minute call
 https://energyconcernsltd.co.uk/givenergy-installer-grantham/,/givenergy-installer-grantham/,town-service,grantham,outside,3,64,42.7,0,0,,retire,/services/battery,"Outside target area, low traffic"
-https://energyconcernsltd.co.uk/givenergy-installer-birmingham/,/givenergy-installer-birmingham/,town-service,birmingham,outside,3,31,18.1,2,17,16.4,retire,/services/battery,"Outside target area, low traffic"
+https://energyconcernsltd.co.uk/givenergy-installer-birmingham/,/givenergy-installer-birmingham/,town-service,birmingham,avoid,3,31,18.1,2,17,16.4,retire,/services/battery,Outside target area
 https://energyconcernsltd.co.uk/guides/solar-panel-maintenance-cleaning/,/guides/solar-panel-maintenance-cleaning/,guide,,,2,4880,39.1,2,4310,39.4,move,/guides/solar-panel-maintenance-cleaning/,Guide with demand: move content and address unchanged
 https://energyconcernsltd.co.uk/solar-panels-redditch/,/solar-panels-redditch/,town-service,redditch,outside,2,4861,11.2,0,3120,10.1,retire,/services/solar,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/solar-panels-stafford/,/solar-panels-stafford/,town-service,stafford,outside,2,4213,21.1,1,2478,18.6,retire,/services/solar,"Outside target area, low traffic"
-https://energyconcernsltd.co.uk/solar-panels-rugby/,/solar-panels-rugby/,town-service,rugby,outside,2,3116,24.3,2,1825,22.9,retire,/services/solar,"Outside target area, low traffic"
-https://energyconcernsltd.co.uk/solar-panels-wolverhampton/,/solar-panels-wolverhampton/,town-service,wolverhampton,outside,2,2861,24.2,1,1893,21.2,retire,/services/solar,"Outside target area, low traffic"
+https://energyconcernsltd.co.uk/solar-panels-rugby/,/solar-panels-rugby/,town-hub,rugby,warks,2,3116,24.3,2,1825,22.9,move,/solar-panels-rugby/,Tier warks town hub: solar + battery + solar-and-battery
+https://energyconcernsltd.co.uk/solar-panels-wolverhampton/,/solar-panels-wolverhampton/,town-service,wolverhampton,avoid,2,2861,24.2,1,1893,21.2,retire,/services/solar,Outside target area
 https://energyconcernsltd.co.uk/solar-panels-northamptonshire/,/solar-panels-northamptonshire/,town-hub,northampton,3,2,2394,33.6,2,2394,33.6,merge,/solar-panels-northampton/,Alias of northampton
 https://energyconcernsltd.co.uk/battery-storage-shrewsbury/,/battery-storage-shrewsbury/,town-service,shrewsbury,outside,2,2226,5.3,1,1158,5.8,retire,/services/battery,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/solar-panels-wigston/,/solar-panels-wigston/,town-hub,wigston,2,2,1825,34.2,2,823,34.1,move,/solar-panels-wigston/,Tier 2 town hub: solar + battery + solar-and-battery
-https://energyconcernsltd.co.uk/solar-panels-west-bromwich/,/solar-panels-west-bromwich/,town-service,west-bromwich,outside,2,1670,23.2,2,970,20.9,retire,/services/solar,"Outside target area, low traffic"
+https://energyconcernsltd.co.uk/solar-panels-west-bromwich/,/solar-panels-west-bromwich/,town-service,west-bromwich,avoid,2,1670,23.2,2,970,20.9,retire,/services/solar,Outside target area
 https://energyconcernsltd.co.uk/solar-panels-castle-donington/,/solar-panels-castle-donington/,town-hub,castle-donington,2,2,1669,17.1,1,847,13.6,move,/solar-panels-castle-donington/,Tier 2 town hub: solar + battery + solar-and-battery
 https://energyconcernsltd.co.uk/solar-panels-stamford/,/solar-panels-stamford/,town-service,stamford,outside,2,1427,27.8,2,465,21.8,retire,/services/solar,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/blog/solar-panels-hinckley-guide/,/blog/solar-panels-hinckley-guide/,blog-town,hinckley,1,2,1259,20.1,1,693,16.4,merge,/solar-panels-hinckley/,Town guide: fold local content into Tier 1 hub
 https://energyconcernsltd.co.uk/blog/battery-storage-east-midlands-guide/,/blog/battery-storage-east-midlands-guide/,blog,,,2,1020,11.5,1,704,13.8,move,/blog/battery-storage-east-midlands-guide/,Article with demand: move unchanged
 https://energyconcernsltd.co.uk/blog/solar-panels-rural-shropshire-guide/,/blog/solar-panels-rural-shropshire-guide/,blog-outside,,,2,915,27.4,2,897,27.6,retire,/blog/,"Outside target area, low traffic"
-https://energyconcernsltd.co.uk/blog/solar-panels-coventry-residential/,/blog/solar-panels-coventry-residential/,blog-outside,,,2,734,25.7,2,438,22.9,retire,/blog/,"Outside target area, low traffic"
+https://energyconcernsltd.co.uk/blog/solar-panels-coventry-residential/,/blog/solar-panels-coventry-residential/,blog-town,coventry,warks,2,734,25.7,2,438,22.9,merge,/solar-panels-coventry/,Town guide: fold local content into Tier warks hub
 https://energyconcernsltd.co.uk/ev-chargers-redditch/,/ev-chargers-redditch/,town-service,redditch,outside,2,683,16.1,2,578,14.3,retire,/services/ev-charging,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/battery-storage-hereford/,/battery-storage-hereford/,town-service,hereford,outside,2,665,9.8,1,385,8.1,retire,/services/battery,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/products/tesla-solar-inverter/,/products/tesla-solar-inverter/,product,,,2,633,9.2,1,532,9.4,review,/products/tesla-solar-inverter/,Has demand; keep if Todd fits this product (CONFIRM product list)
@@ -156,7 +156,7 @@ https://energyconcernsltd.co.uk/blog/are-solar-panels-worth-it-leicestershire-20
 https://energyconcernsltd.co.uk/battery-storage-loughborough/,/battery-storage-loughborough/,town-service,loughborough,2,2,503,35.2,2,426,34.7,move,/battery-storage-loughborough/,"Own page: demand (503 impr, 2 clicks in 12m)"
 https://energyconcernsltd.co.uk/ev-chargers-banbury/,/ev-chargers-banbury/,town-service,banbury,outside,2,447,14.8,1,340,11.9,retire,/services/ev-charging,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/solar-panels-broughton-astley/,/solar-panels-broughton-astley/,town-hub,broughton-astley,1,2,421,16.4,2,315,13.5,move,/solar-panels-broughton-astley/,Tier 1 town hub: solar + battery + solar-and-battery
-https://energyconcernsltd.co.uk/tesla-powerwall-coventry/,/tesla-powerwall-coventry/,town-service,coventry,outside,2,349,21.2,1,261,25.7,retire,/services/battery,"Outside target area, low traffic"
+https://energyconcernsltd.co.uk/tesla-powerwall-coventry/,/tesla-powerwall-coventry/,town-service,coventry,warks,2,349,21.2,1,261,25.7,merge,/solar-panels-coventry/,Fold into Tier warks town hub
 https://energyconcernsltd.co.uk/ev-chargers-ashby-de-la-zouch/,/ev-chargers-ashby-de-la-zouch/,town-service,ashby-de-la-zouch,2,2,328,17,1,269,18.6,merge,/services/ev-charging,Not part of solar/battery hub; low demand
 https://energyconcernsltd.co.uk/guides/solar-panels-leicester-victorian-terraces/,/guides/solar-panels-leicester-victorian-terraces/,guide,,,2,320,21.1,1,80,22.4,move,/guides/solar-panels-leicester-victorian-terraces/,Guide with demand: move content and address unchanged
 https://energyconcernsltd.co.uk/battery-storage-melton-mowbray/,/battery-storage-melton-mowbray/,town-service,melton-mowbray,2,2,276,35.9,2,260,36,merge,/solar-panels-melton-mowbray/,Fold into Tier 2 town hub
@@ -165,13 +165,13 @@ https://energyconcernsltd.co.uk/ev-chargers-stoke-on-trent/,/ev-chargers-stoke-o
 https://energyconcernsltd.co.uk/tesla-powerwall-nottingham/,/tesla-powerwall-nottingham/,town-service,nottingham,3,2,246,8.3,2,148,8.6,merge,/solar-panels-nottingham/,Fold into Tier 3 town hub
 https://energyconcernsltd.co.uk/ev-chargers-leicester/,/ev-chargers-leicester/,town-service,leicester,2,2,242,21.4,2,173,18.3,merge,/services/ev-charging,Not part of solar/battery hub; low demand
 https://energyconcernsltd.co.uk/tesla-powerwall-banbury/,/tesla-powerwall-banbury/,town-service,banbury,outside,2,230,19.6,2,160,23.6,retire,/services/battery,"Outside target area, low traffic"
-https://energyconcernsltd.co.uk/battery-storage-nuneaton/,/battery-storage-nuneaton/,town-service,nuneaton,outside,2,229,10.3,1,80,12.2,retire,/services/battery,"Outside target area, low traffic"
+https://energyconcernsltd.co.uk/battery-storage-nuneaton/,/battery-storage-nuneaton/,town-service,nuneaton,warks,2,229,10.3,1,80,12.2,merge,/solar-panels-nuneaton/,Fold into Tier warks town hub
 https://energyconcernsltd.co.uk/battery-storage-derby/,/battery-storage-derby/,town-service,derby,outside,2,227,19,1,113,9.2,retire,/services/battery,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/tesla-powerwall-worcester/,/tesla-powerwall-worcester/,town-service,worcester,outside,2,226,15.5,2,201,15.5,retire,/services/battery,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/solar-panels-burton-upon-trent,/solar-panels-burton-upon-trent,variant,,,2,219,15.5,0,1,1,merge,/solar-panels-burton-upon-trent/,No-trailing-slash duplicate
 https://energyconcernsltd.co.uk/solaredge-installer-leicester/,/solaredge-installer-leicester/,town-service,leicester,2,2,217,24.5,2,125,18.7,merge,/solar-panels-leicester/,Fold into Tier 2 town hub
 https://energyconcernsltd.co.uk/blog/how-to-choose-solar-panel-installers-leicestershire/,/blog/how-to-choose-solar-panel-installers-leicestershire/,blog,,,2,206,18.3,2,206,18.3,move,/blog/how-to-choose-solar-panel-installers-leicestershire/,Article with demand: move unchanged
-https://energyconcernsltd.co.uk/tesla-powerwall-dudley/,/tesla-powerwall-dudley/,town-service,dudley,outside,2,175,14.7,2,117,15.2,retire,/services/battery,"Outside target area, low traffic"
+https://energyconcernsltd.co.uk/tesla-powerwall-dudley/,/tesla-powerwall-dudley/,town-service,dudley,avoid,2,175,14.7,2,117,15.2,retire,/services/battery,Outside target area
 https://energyconcernsltd.co.uk/ev-chargers/charger-features/,/ev-chargers/charger-features/,service-sub,,,2,166,18.7,0,0,,merge,/services/ev-charging,Old service sub-page
 https://energyconcernsltd.co.uk/solar-panels-countesthorpe/,/solar-panels-countesthorpe/,town-hub,countesthorpe,2,2,165,44.2,1,82,38.6,move,/solar-panels-countesthorpe/,Tier 2 town hub: solar + battery + solar-and-battery
 https://energyconcernsltd.co.uk/tesla-powerwall-grantham/,/tesla-powerwall-grantham/,town-service,grantham,outside,2,147,17.2,2,90,12,retire,/services/battery,"Outside target area, low traffic"
@@ -189,7 +189,7 @@ https://energyconcernsltd.co.uk/terms-and-conditions/,/terms-and-conditions/,cor
 https://energyconcernsltd.co.uk/tesla-powerwall-lichfield/,/tesla-powerwall-lichfield/,town-service,lichfield,outside,2,81,14.3,1,31,20.1,retire,/services/battery,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/products/fox-ess-ep-h/,/products/fox-ess-ep-h/,product,,,2,53,13.2,1,43,14.9,review,/products/fox-ess-ep-h/,Has demand; keep if Todd fits this product (CONFIRM product list)
 https://energyconcernsltd.co.uk/solar-panels-burbage/,/solar-panels-burbage/,town-hub,burbage,1,2,29,13.1,1,10,7.6,move,/solar-panels-burbage/,Tier 1 town hub: solar + battery + solar-and-battery
-https://energyconcernsltd.co.uk/solar-panels-dudley/,/solar-panels-dudley/,town-service,dudley,outside,1,4029,30.8,0,2207,29,retire,/services/solar,"Outside target area, low traffic"
+https://energyconcernsltd.co.uk/solar-panels-dudley/,/solar-panels-dudley/,town-service,dudley,avoid,1,4029,30.8,0,2207,29,retire,/services/solar,Outside target area
 https://energyconcernsltd.co.uk/blog/solar-panels-banbury-north-oxfordshire-guide/,/blog/solar-panels-banbury-north-oxfordshire-guide/,blog-outside,,,1,3967,22.5,1,2221,17.5,retire,/blog/,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/solar-panels-coalville/,/solar-panels-coalville/,town-hub,coalville,2,1,2388,31.6,1,1358,25.2,move,/solar-panels-coalville/,Tier 2 town hub: solar + battery + solar-and-battery
 https://energyconcernsltd.co.uk/solar-panels-oakham/,/solar-panels-oakham/,town-service,oakham,outside,1,1907,34.7,1,1096,30.4,retire,/services/solar,"Outside target area, low traffic"
@@ -207,33 +207,33 @@ https://energyconcernsltd.co.uk/blog/ev-chargers-east-midlands-guide/,/blog/ev-c
 https://energyconcernsltd.co.uk/solar-panels-shropshire/,/solar-panels-shropshire/,town-service,shropshire,outside,1,590,12.8,1,590,12.8,retire,/services/solar,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/battery-storage-syston/,/battery-storage-syston/,town-service,syston,2,1,576,48.8,1,557,49.5,move,/battery-storage-syston/,"Own page: demand (576 impr, 1 clicks in 12m)"
 https://energyconcernsltd.co.uk/blog/solar-panels-market-harborough-guide/,/blog/solar-panels-market-harborough-guide/,blog-town,market-harborough,2,1,572,15.8,1,389,13.4,merge,/solar-panels-market-harborough/,Town guide: fold local content into Tier 2 hub
-https://energyconcernsltd.co.uk/tesla-powerwall-birmingham/,/tesla-powerwall-birmingham/,town-service,birmingham,outside,1,559,21.7,0,363,19.1,retire,/services/battery,"Outside target area, low traffic"
+https://energyconcernsltd.co.uk/tesla-powerwall-birmingham/,/tesla-powerwall-birmingham/,town-service,birmingham,avoid,1,559,21.7,0,363,19.1,retire,/services/battery,Outside target area
 https://energyconcernsltd.co.uk/solar-panels-oxfordshire/,/solar-panels-oxfordshire/,town-service,oxfordshire,outside,1,552,17.3,1,552,17.3,retire,/services/solar,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/tesla-powerwall-stratford-upon-avon/,/tesla-powerwall-stratford-upon-avon/,town-service,stratford-upon-avon,outside,1,513,20.4,0,460,19.9,retire,/services/battery,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/solar-panels-worcestershire/,/solar-panels-worcestershire/,town-service,worcestershire,outside,1,496,26.4,1,496,26.4,retire,/services/solar,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/solar-panels-warwickshire/,/solar-panels-warwickshire/,town-service,warwickshire,outside,1,487,18.9,1,487,18.9,retire,/services/solar,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/blog/eco4-solar-panels-black-country-guide/,/blog/eco4-solar-panels-black-country-guide/,blog-outside,,,1,448,35.4,1,229,39,retire,/blog/,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/ev-chargers-kettering/,/ev-chargers-kettering/,town-service,kettering,outside,1,438,16.1,1,322,13.5,retire,/services/ev-charging,"Outside target area, low traffic"
-https://energyconcernsltd.co.uk/ev-chargers-rugby/,/ev-chargers-rugby/,town-service,rugby,outside,1,438,34.2,1,335,33.9,retire,/services/ev-charging,"Outside target area, low traffic"
+https://energyconcernsltd.co.uk/ev-chargers-rugby/,/ev-chargers-rugby/,town-service,rugby,warks,1,438,34.2,1,335,33.9,merge,/services/ev-charging,Not part of solar/battery hub; low demand
 https://energyconcernsltd.co.uk/ev-chargers-milton-keynes/,/ev-chargers-milton-keynes/,town-service,milton-keynes,3,1,413,22.4,1,328,20.3,merge,/services/ev-charging,Not part of solar/battery hub; low demand
 https://energyconcernsltd.co.uk/tesla-powerwall-alternative-leicester/,/tesla-powerwall-alternative-leicester/,town-service,alternative-leicester,outside,1,405,7.9,0,5,14.2,retire,/services/battery,Not a real town page
 https://energyconcernsltd.co.uk/blog/solar-panels-for-landlords-leicester/,/blog/solar-panels-for-landlords-leicester/,blog-town,leicester,2,1,387,20.4,1,318,21.2,merge,/solar-panels-leicester/,Town guide: fold local content into Tier 2 hub
 https://energyconcernsltd.co.uk/blog/solar-panels-loughborough-guide/,/blog/solar-panels-loughborough-guide/,blog-town,loughborough,2,1,377,18,1,108,17.4,merge,/solar-panels-loughborough/,Town guide: fold local content into Tier 2 hub
 https://energyconcernsltd.co.uk/drone-roof-survey-leicester/,/drone-roof-survey-leicester/,town-service,leicester,2,1,371,33.5,1,371,33.5,merge,/services/re-roofing,Not part of solar/battery hub; low demand
-https://energyconcernsltd.co.uk/blog/commercial-solar-leicestershire-businesses-2026/,/blog/commercial-solar-leicestershire-businesses-2026/,blog,,,1,364,30.1,1,364,30.1,move,/blog/commercial-solar-leicestershire-businesses-2026/,Article with demand: move unchanged
+https://energyconcernsltd.co.uk/blog/commercial-solar-leicestershire-businesses-2026/,/blog/commercial-solar-leicestershire-businesses-2026/,blog-commercial,,,1,364,30.1,1,364,30.1,move,/blog/commercial-solar-leicestershire-businesses-2026/,"Commercial work is a target (Todd, 14 Nov)"
 https://energyconcernsltd.co.uk/battery-storage-stoke-on-trent/,/battery-storage-stoke-on-trent/,town-service,stoke-on-trent,outside,1,351,7.2,1,307,5.6,retire,/services/battery,"Outside target area, low traffic"
-https://energyconcernsltd.co.uk/battery-storage-bedworth/,/battery-storage-bedworth/,town-service,bedworth,outside,1,340,42.8,1,174,40.9,retire,/services/battery,"Outside target area, low traffic"
+https://energyconcernsltd.co.uk/battery-storage-bedworth/,/battery-storage-bedworth/,town-service,bedworth,nearby?,1,340,42.8,1,174,40.9,review,/battery-storage-bedworth/,Close to Hinckley; include in target area? (CONFIRM)
 https://energyconcernsltd.co.uk/tesla-powerwall-swadlincote/,/tesla-powerwall-swadlincote/,town-service,swadlincote,outside,1,319,26.4,1,303,26.7,retire,/services/battery,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/battery-storage-burton-upon-trent/,/battery-storage-burton-upon-trent/,town-service,burton-upon-trent,outside,1,315,19.8,0,242,23.9,retire,/services/battery,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/blog/solar-panels-stafford-staffordshire-guide/,/blog/solar-panels-stafford-staffordshire-guide/,blog-outside,,,1,302,15.3,1,111,11.3,retire,/blog/,"Outside target area, low traffic"
-https://energyconcernsltd.co.uk/solar-panels-atherstone/,/solar-panels-atherstone/,town-service,atherstone,outside,1,301,23.8,0,164,15.8,retire,/services/solar,"Outside target area, low traffic"
-https://energyconcernsltd.co.uk/ev-chargers-solihull/,/ev-chargers-solihull/,town-service,solihull,outside,1,290,24.4,1,199,18.8,retire,/services/ev-charging,"Outside target area, low traffic"
+https://energyconcernsltd.co.uk/solar-panels-atherstone/,/solar-panels-atherstone/,town-service,atherstone,nearby?,1,301,23.8,0,164,15.8,review,/solar-panels-atherstone/,Close to Hinckley; include in target area? (CONFIRM)
+https://energyconcernsltd.co.uk/ev-chargers-solihull/,/ev-chargers-solihull/,town-service,solihull,avoid,1,290,24.4,1,199,18.8,retire,/services/ev-charging,Outside target area
 https://energyconcernsltd.co.uk/brands/aiko-solar/,/brands/aiko-solar/,brand,,,1,285,14.9,0,209,17.2,review,/brands/aiko-solar/,Has demand; keep if Todd fits this product (CONFIRM product list)
 https://energyconcernsltd.co.uk/battery-storage-stratford-upon-avon/,/battery-storage-stratford-upon-avon/,town-service,stratford-upon-avon,outside,1,249,9.6,1,113,7.8,retire,/services/battery,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/products/sigenergy-battery-10kwh,/products/sigenergy-battery-10kwh,variant,,,1,248,8.4,0,0,,merge,/products/sigenergy-battery-10kwh/,No-trailing-slash duplicate
-https://energyconcernsltd.co.uk/battery-storage-walsall/,/battery-storage-walsall/,town-service,walsall,outside,1,246,19,1,129,15.7,retire,/services/battery,"Outside target area, low traffic"
+https://energyconcernsltd.co.uk/battery-storage-walsall/,/battery-storage-walsall/,town-service,walsall,avoid,1,246,19,1,129,15.7,retire,/services/battery,Outside target area
 https://energyconcernsltd.co.uk/blog/solar-panels-leicester-complete-guide/,/blog/solar-panels-leicester-complete-guide/,blog-town,leicester,2,1,218,31.2,0,93,36.9,merge,/solar-panels-leicester/,Town guide: fold local content into Tier 2 hub
-https://energyconcernsltd.co.uk/solar-panels-bedworth/,/solar-panels-bedworth/,town-service,bedworth,outside,1,211,18,1,65,20.3,retire,/services/solar,"Outside target area, low traffic"
+https://energyconcernsltd.co.uk/solar-panels-bedworth/,/solar-panels-bedworth/,town-service,bedworth,nearby?,1,211,18,1,65,20.3,review,/solar-panels-bedworth/,Close to Hinckley; include in target area? (CONFIRM)
 https://energyconcernsltd.co.uk/guides/eco4-scheme-eligibility,/guides/eco4-scheme-eligibility,variant,,,1,209,11.5,0,0,,merge,/guides/eco4-scheme-eligibility/,No-trailing-slash duplicate
 https://energyconcernsltd.co.uk/tesla-powerwall-stafford/,/tesla-powerwall-stafford/,town-service,stafford,outside,1,205,11.3,1,94,13.9,retire,/services/battery,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/guides/time-of-use-tariffs-octopus-flux,/guides/time-of-use-tariffs-octopus-flux,variant,,,1,191,9.8,0,3,2.3,merge,/guides/time-of-use-tariffs-octopus-flux/,No-trailing-slash duplicate
@@ -242,15 +242,15 @@ https://energyconcernsltd.co.uk/blog/battery-storage-costs-west-midlands-2025/,/
 https://energyconcernsltd.co.uk/tesla-powerwall-corby/,/tesla-powerwall-corby/,town-service,corby,outside,1,174,18.2,1,127,19.2,retire,/services/battery,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/products/tesla-powerwall-3,/products/tesla-powerwall-3,variant,,,1,171,37,0,0,,merge,/products/tesla-powerwall-3/,No-trailing-slash duplicate
 https://energyconcernsltd.co.uk/guides/solar-panels-rural-east-midlands/,/guides/solar-panels-rural-east-midlands/,guide,,,1,170,31.5,0,131,29.5,move,/guides/solar-panels-rural-east-midlands/,Guide with demand: move content and address unchanged
-https://energyconcernsltd.co.uk/battery-storage-dudley/,/battery-storage-dudley/,town-service,dudley,outside,1,169,16.8,1,64,12.9,retire,/services/battery,"Outside target area, low traffic"
+https://energyconcernsltd.co.uk/battery-storage-dudley/,/battery-storage-dudley/,town-service,dudley,avoid,1,169,16.8,1,64,12.9,retire,/services/battery,Outside target area
 https://energyconcernsltd.co.uk/battery-storage-hinckley/,/battery-storage-hinckley/,town-service,hinckley,1,1,168,13.4,1,69,6.6,merge,/solar-panels-hinckley/,Fold into Tier 1 town hub
-https://energyconcernsltd.co.uk/battery-storage-west-bromwich/,/battery-storage-west-bromwich/,town-service,west-bromwich,outside,1,160,15.9,1,109,18.8,retire,/services/battery,"Outside target area, low traffic"
+https://energyconcernsltd.co.uk/battery-storage-west-bromwich/,/battery-storage-west-bromwich/,town-service,west-bromwich,avoid,1,160,15.9,1,109,18.8,retire,/services/battery,Outside target area
 https://energyconcernsltd.co.uk/battery-storage-stafford/,/battery-storage-stafford/,town-service,stafford,outside,1,158,14.3,1,108,14.9,retire,/services/battery,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/battery-storage-glenfield/,/battery-storage-glenfield/,town-service,glenfield,2,1,157,43,1,111,43.4,merge,/solar-panels-glenfield/,Fold into Tier 2 town hub
 https://energyconcernsltd.co.uk/wp-content/uploads/2023/02/Easee-Home-user-guide.pdf,/wp-content/uploads/2023/02/Easee-Home-user-guide.pdf,asset,,,1,144,9.1,0,0,,none,,Old WordPress file; let 404/410
 https://energyconcernsltd.co.uk/givenergy-installer-lichfield/,/givenergy-installer-lichfield/,town-service,lichfield,outside,1,140,35.6,0,0,,retire,/services/battery,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/blog/solar-panels-stoke-on-trent-guide/,/blog/solar-panels-stoke-on-trent-guide/,blog-outside,,,1,139,18.5,0,76,16.9,retire,/blog/,"Outside target area, low traffic"
-https://energyconcernsltd.co.uk/tesla-powerwall-nuneaton/,/tesla-powerwall-nuneaton/,town-service,nuneaton,outside,1,137,34.7,1,110,38.3,retire,/services/battery,"Outside target area, low traffic"
+https://energyconcernsltd.co.uk/tesla-powerwall-nuneaton/,/tesla-powerwall-nuneaton/,town-service,nuneaton,warks,1,137,34.7,1,110,38.3,merge,/solar-panels-nuneaton/,Fold into Tier warks town hub
 https://energyconcernsltd.co.uk/tesla-powerwall-milton-keynes/,/tesla-powerwall-milton-keynes/,town-service,milton-keynes,3,1,134,9.9,0,76,10.4,merge,/solar-panels-milton-keynes/,Fold into Tier 3 town hub
 https://energyconcernsltd.co.uk/solar-panels-birmingham,/solar-panels-birmingham,variant,,,1,132,27,0,1,1,merge,/solar-panels-birmingham/,No-trailing-slash duplicate
 https://energyconcernsltd.co.uk/blog/solar-panels-victorian-edwardian-terraces-leicester/,/blog/solar-panels-victorian-edwardian-terraces-leicester/,blog-town,leicester,2,1,130,17.9,1,48,20.7,merge,/solar-panels-leicester/,Town guide: fold local content into Tier 2 hub
@@ -260,18 +260,18 @@ https://energyconcernsltd.co.uk/blog/solar-panels-rugby-guide,/blog/solar-panels
 https://energyconcernsltd.co.uk/tesla-powerwall-leamington-spa/,/tesla-powerwall-leamington-spa/,town-service,leamington-spa,outside,1,123,29,0,38,50.9,retire,/services/battery,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/tesla-powerwall-stamford/,/tesla-powerwall-stamford/,town-service,stamford,outside,1,117,16,0,66,20.2,retire,/services/battery,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/ev-chargers-telford/,/ev-chargers-telford/,town-service,telford,outside,1,116,27.9,1,37,24,retire,/services/ev-charging,"Outside target area, low traffic"
-https://energyconcernsltd.co.uk/givenergy-installer-walsall/,/givenergy-installer-walsall/,town-service,walsall,outside,1,114,49,1,49,47.4,retire,/services/battery,"Outside target area, low traffic"
+https://energyconcernsltd.co.uk/givenergy-installer-walsall/,/givenergy-installer-walsall/,town-service,walsall,avoid,1,114,49,1,49,47.4,retire,/services/battery,Outside target area
 https://energyconcernsltd.co.uk/givenergy-installer-northampton/,/givenergy-installer-northampton/,town-service,northampton,3,1,111,14.1,1,55,9.5,merge,/solar-panels-northampton/,Fold into Tier 3 town hub
 https://energyconcernsltd.co.uk/solar-panels-barwell/,/solar-panels-barwell/,town-hub,barwell,1,1,108,37.8,1,77,28.8,move,/solar-panels-barwell/,Tier 1 town hub: solar + battery + solar-and-battery
 https://energyconcernsltd.co.uk/blog/switch-together-birmingham-explained/,/blog/switch-together-birmingham-explained/,blog-outside,,,1,106,8.4,1,106,8.4,retire,/blog/,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/ev-chargers-market-deeping/,/ev-chargers-market-deeping/,town-service,market-deeping,outside,1,105,15.1,1,75,11.9,retire,/services/ev-charging,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/ev-chargers-shepshed/,/ev-chargers-shepshed/,town-service,shepshed,2,1,103,10,1,61,11.9,merge,/services/ev-charging,Not part of solar/battery hub; low demand
-https://energyconcernsltd.co.uk/ev-chargers-atherstone/,/ev-chargers-atherstone/,town-service,atherstone,outside,1,95,18.4,1,46,11.7,retire,/services/ev-charging,"Outside target area, low traffic"
+https://energyconcernsltd.co.uk/ev-chargers-atherstone/,/ev-chargers-atherstone/,town-service,atherstone,nearby?,1,95,18.4,1,46,11.7,review,/ev-chargers-atherstone/,Close to Hinckley; include in target area? (CONFIRM)
 https://energyconcernsltd.co.uk/solar-panels-kibworth/,/solar-panels-kibworth/,town-hub,kibworth,2,1,85,30.3,1,18,40.3,move,/solar-panels-kibworth/,Tier 2 town hub: solar + battery + solar-and-battery
 https://energyconcernsltd.co.uk/givenergy-installer-stoke-on-trent/,/givenergy-installer-stoke-on-trent/,town-service,stoke-on-trent,outside,1,84,40,0,0,,retire,/services/battery,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/ev-chargers-castle-donington/,/ev-chargers-castle-donington/,town-service,castle-donington,2,1,82,43,1,58,47.9,merge,/services/ev-charging,Not part of solar/battery hub; low demand
 https://energyconcernsltd.co.uk/givenergy-installer-shrewsbury/,/givenergy-installer-shrewsbury/,town-service,shrewsbury,outside,1,73,25,0,0,,retire,/services/battery,"Outside target area, low traffic"
-https://energyconcernsltd.co.uk/givenergy-installer-nuneaton/,/givenergy-installer-nuneaton/,town-service,nuneaton,outside,1,67,40.7,0,0,,retire,/services/battery,"Outside target area, low traffic"
+https://energyconcernsltd.co.uk/givenergy-installer-nuneaton/,/givenergy-installer-nuneaton/,town-service,nuneaton,warks,1,67,40.7,0,0,,merge,/solar-panels-nuneaton/,Fold into Tier warks town hub
 https://energyconcernsltd.co.uk/tesla-powerwall-peterborough/,/tesla-powerwall-peterborough/,town-service,peterborough,outside,1,65,20.9,1,45,8.9,retire,/services/battery,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/tesla-powerwall-thorpe-astley/,/tesla-powerwall-thorpe-astley/,town-service,thorpe-astley,2,1,64,23.3,0,54,22.4,merge,/solar-panels-thorpe-astley/,Fold into Tier 2 town hub
 https://energyconcernsltd.co.uk/tesla-powerwall-burton-upon-trent/,/tesla-powerwall-burton-upon-trent/,town-service,burton-upon-trent,outside,1,60,20.8,1,24,27.6,retire,/services/battery,"Outside target area, low traffic"
@@ -280,7 +280,7 @@ https://energyconcernsltd.co.uk/blog/solar-panels-market-harborough-guide,/blog/
 https://energyconcernsltd.co.uk/battery-storage-coventry,/battery-storage-coventry,variant,,,1,51,9.5,0,0,,merge,/battery-storage-coventry/,No-trailing-slash duplicate
 https://energyconcernsltd.co.uk/ev-chargers-broughton-astley/,/ev-chargers-broughton-astley/,town-service,broughton-astley,1,1,47,17.7,1,23,14.6,merge,/services/ev-charging,Not part of solar/battery hub; low demand
 https://energyconcernsltd.co.uk/blog/solar-panels-coventry-residential,/blog/solar-panels-coventry-residential,variant,,,1,45,7.9,0,0,,merge,/blog/solar-panels-coventry-residential/,No-trailing-slash duplicate
-https://energyconcernsltd.co.uk/battery-storage-atherstone/,/battery-storage-atherstone/,town-service,atherstone,outside,1,44,25.3,1,16,23.4,retire,/services/battery,"Outside target area, low traffic"
+https://energyconcernsltd.co.uk/battery-storage-atherstone/,/battery-storage-atherstone/,town-service,atherstone,nearby?,1,44,25.3,1,16,23.4,review,/battery-storage-atherstone/,Close to Hinckley; include in target area? (CONFIRM)
 http://www.energyconcernsltd.co.uk/,/,variant,,,1,39,4.4,0,32,4.5,none,,"www/http/query-string variant; covered by sitewide www->apex, http->https"
 https://energyconcernsltd.co.uk/complaints/,/complaints/,core,,,1,38,7.5,1,38,7.5,move,/complaints/,Required for RECC/consumer code: missing on Framer site
 https://energyconcernsltd.co.uk/ev-chargers-birstall/,/ev-chargers-birstall/,town-service,birstall,2,1,34,29,0,14,8.9,merge,/services/ev-charging,Not part of solar/battery hub; low demand
@@ -316,7 +316,7 @@ https://energyconcernsltd.co.uk/solar-panels-oadby/,/solar-panels-oadby/,town-hu
 https://energyconcernsltd.co.uk/solar-panels-syston/,/solar-panels-syston/,town-hub,syston,2,0,1110,40.8,0,511,40.8,move,/solar-panels-syston/,Tier 2 town hub: solar + battery + solar-and-battery
 https://energyconcernsltd.co.uk/tesla-powerwall-redditch/,/tesla-powerwall-redditch/,town-service,redditch,outside,0,963,3.3,0,604,3.2,retire,/services/battery,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/blog/,/blog/,core,,,0,859,35.8,0,578,28.9,move,/blog/,Articles index (Framer CMS collection)
-https://energyconcernsltd.co.uk/blog/solar-panels-coventry-commercial/,/blog/solar-panels-coventry-commercial/,blog-outside,,,0,802,26.1,0,69,24.4,retire,/blog/,"Outside target area, low traffic"
+https://energyconcernsltd.co.uk/blog/solar-panels-coventry-commercial/,/blog/solar-panels-coventry-commercial/,blog-commercial,,,0,802,26.1,0,69,24.4,move,/blog/solar-panels-coventry-commercial/,"Commercial work is a target (Todd, 14 Nov)"
 https://energyconcernsltd.co.uk/solar-panels-birstall/,/solar-panels-birstall/,town-hub,birstall,2,0,779,49,0,323,49.3,move,/solar-panels-birstall/,Tier 2 town hub: solar + battery + solar-and-battery
 https://energyconcernsltd.co.uk/blog/solar-panels-hereford-off-gas-guide/,/blog/solar-panels-hereford-off-gas-guide/,blog-outside,,,0,778,21.1,0,415,16.6,retire,/blog/,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/blog/solar-panels-northampton-guide/,/blog/solar-panels-northampton-guide/,blog-town,northampton,3,0,715,16.9,0,310,13.8,merge,/solar-panels-northampton/,Town guide: fold local content into Tier 3 hub
@@ -343,16 +343,16 @@ https://energyconcernsltd.co.uk/products/aiko-neostar-3s/,/products/aiko-neostar
 https://energyconcernsltd.co.uk/products/hypervolt-home-3/,/products/hypervolt-home-3/,product,,,0,277,32.5,0,171,32.1,review,/products/hypervolt-home-3/,Has demand; keep if Todd fits this product (CONFIRM product list)
 https://energyconcernsltd.co.uk/blog/solar-panels-wigston-south-wigston-le18/,/blog/solar-panels-wigston-south-wigston-le18/,blog-town,wigston,2,0,272,41.9,0,223,39.6,merge,/solar-panels-wigston/,Town guide: fold local content into Tier 2 hub
 https://energyconcernsltd.co.uk/privacy-policy/,/privacy-policy/,core,,,0,263,16.5,0,114,24.5,move,/privacy-policy/,Legal page: missing on Framer site
-https://energyconcernsltd.co.uk/ev-chargers-walsall/,/ev-chargers-walsall/,town-service,walsall,outside,0,259,27.3,0,109,30.9,retire,/services/ev-charging,"Outside target area, low traffic"
+https://energyconcernsltd.co.uk/ev-chargers-walsall/,/ev-chargers-walsall/,town-service,walsall,avoid,0,259,27.3,0,109,30.9,retire,/services/ev-charging,Outside target area
 https://energyconcernsltd.co.uk/blog/solar-panels-rural-shropshire-guide,/blog/solar-panels-rural-shropshire-guide,variant,,,0,257,35.1,0,4,41.5,merge,/blog/solar-panels-rural-shropshire-guide/,No-trailing-slash duplicate
 https://energyconcernsltd.co.uk/tesla-powerwall-northampton/,/tesla-powerwall-northampton/,town-service,northampton,3,0,253,8.3,0,70,9.8,merge,/solar-panels-northampton/,Fold into Tier 3 town hub
-https://energyconcernsltd.co.uk/tesla-powerwall-walsall/,/tesla-powerwall-walsall/,town-service,walsall,outside,0,248,19.5,0,152,21.4,retire,/services/battery,"Outside target area, low traffic"
+https://energyconcernsltd.co.uk/tesla-powerwall-walsall/,/tesla-powerwall-walsall/,town-service,walsall,avoid,0,248,19.5,0,152,21.4,retire,/services/battery,Outside target area
 https://energyconcernsltd.co.uk/givenergy-installer-stratford-upon-avon/,/givenergy-installer-stratford-upon-avon/,town-service,stratford-upon-avon,outside,0,240,43.2,0,0,,retire,/services/battery,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/blog/solar-panels-hereford-off-gas-guide,/blog/solar-panels-hereford-off-gas-guide,variant,,,0,234,24.7,0,0,,merge,/blog/solar-panels-hereford-off-gas-guide/,No-trailing-slash duplicate
 https://energyconcernsltd.co.uk/blog/solar-panels-ashby-de-la-zouch-le65/,/blog/solar-panels-ashby-de-la-zouch-le65/,blog-town,ashby-de-la-zouch,2,0,229,18,0,136,19.8,merge,/solar-panels-ashby-de-la-zouch/,Town guide: fold local content into Tier 2 hub
 https://energyconcernsltd.co.uk/guides/solar-panels-add-house-value/,/guides/solar-panels-add-house-value/,guide,,,0,228,18.6,0,27,24.3,retire,/guides/,"No clicks, little demand"
 https://energyconcernsltd.co.uk/flat-roof-solar-panels/,/flat-roof-solar-panels/,core,,,0,207,45.8,0,46,49,merge,/services/solar,Fold into solar service page as a section
-https://energyconcernsltd.co.uk/ev-chargers-dudley/,/ev-chargers-dudley/,town-service,dudley,outside,0,205,29.5,0,69,32.5,retire,/services/ev-charging,"Outside target area, low traffic"
+https://energyconcernsltd.co.uk/ev-chargers-dudley/,/ev-chargers-dudley/,town-service,dudley,avoid,0,205,29.5,0,69,32.5,retire,/services/ev-charging,Outside target area
 https://energyconcernsltd.co.uk/blog/solar-panels-oxford-conservation-guide,/blog/solar-panels-oxford-conservation-guide,variant,,,0,203,13.9,0,0,,merge,/blog/solar-panels-oxford-conservation-guide/,No-trailing-slash duplicate
 https://energyconcernsltd.co.uk/blog/solar-panels-birmingham-guide/,/blog/solar-panels-birmingham-guide/,blog-outside,,,0,200,22.4,0,0,,retire,/blog/,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/battery-storage-blaby/,/battery-storage-blaby/,town-service,blaby,2,0,198,47.7,0,189,49,merge,/solar-panels-blaby/,Fold into Tier 2 town hub
@@ -388,23 +388,23 @@ https://energyconcernsltd.co.uk/tesla-powerwall-kettering/,/tesla-powerwall-kett
 https://energyconcernsltd.co.uk/ev-chargers-stafford/,/ev-chargers-stafford/,town-service,stafford,outside,0,125,38.4,0,65,35.7,retire,/services/ev-charging,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/battery-storage-castle-donington/,/battery-storage-castle-donington/,town-service,castle-donington,2,0,124,17.3,0,97,14.1,merge,/solar-panels-castle-donington/,Fold into Tier 2 town hub
 https://energyconcernsltd.co.uk/ev-chargers-wigston/,/ev-chargers-wigston/,town-service,wigston,2,0,124,24.6,0,43,34.8,merge,/services/ev-charging,Not part of solar/battery hub; low demand
-https://energyconcernsltd.co.uk/ev-chargers-west-bromwich/,/ev-chargers-west-bromwich/,town-service,west-bromwich,outside,0,122,29.7,0,23,39.5,retire,/services/ev-charging,"Outside target area, low traffic"
+https://energyconcernsltd.co.uk/ev-chargers-west-bromwich/,/ev-chargers-west-bromwich/,town-service,west-bromwich,avoid,0,122,29.7,0,23,39.5,retire,/services/ev-charging,Outside target area
 https://energyconcernsltd.co.uk/ev-chargers-kidderminster/,/ev-chargers-kidderminster/,town-service,kidderminster,outside,0,120,32.8,0,23,58.8,retire,/services/ev-charging,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/solar-panels-thurmaston/,/solar-panels-thurmaston/,town-hub,thurmaston,2,0,119,18.3,0,76,13,move,/solar-panels-thurmaston/,Tier 2 town hub: solar + battery + solar-and-battery
 https://energyconcernsltd.co.uk/ev-chargers-derby/,/ev-chargers-derby/,town-service,derby,outside,0,118,25.2,0,50,22.9,retire,/services/ev-charging,"Outside target area, low traffic"
-https://energyconcernsltd.co.uk/commercial-ev-charging/,/commercial-ev-charging/,core,,,0,115,15.4,0,115,15.4,review,,No commercial page on Framer site
+https://energyconcernsltd.co.uk/commercial-ev-charging/,/commercial-ev-charging/,core,,,0,115,15.4,0,115,15.4,move,/commercial-ev-charging/,"Commercial is a target (Todd, 14 Nov): page needed on Framer"
 https://energyconcernsltd.co.uk/blog/solar-panels-nuneaton-guide,/blog/solar-panels-nuneaton-guide,variant,,,0,114,31.8,0,0,,merge,/blog/solar-panels-nuneaton-guide/,No-trailing-slash duplicate
-https://energyconcernsltd.co.uk/tesla-powerwall-wolverhampton/,/tesla-powerwall-wolverhampton/,town-service,wolverhampton,outside,0,114,7.3,0,50,9.1,retire,/services/battery,"Outside target area, low traffic"
+https://energyconcernsltd.co.uk/tesla-powerwall-wolverhampton/,/tesla-powerwall-wolverhampton/,town-service,wolverhampton,avoid,0,114,7.3,0,50,9.1,retire,/services/battery,Outside target area
 https://energyconcernsltd.co.uk/battery-storage-countesthorpe/,/battery-storage-countesthorpe/,town-service,countesthorpe,2,0,113,58.5,0,91,57.1,merge,/solar-panels-countesthorpe/,Fold into Tier 2 town hub
 https://energyconcernsltd.co.uk/battery-storage-leamington-spa/,/battery-storage-leamington-spa/,town-service,leamington-spa,outside,0,113,14.7,0,37,7.9,retire,/services/battery,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/products/zappi-v2/,/products/zappi-v2/,product,,,0,111,44.4,0,72,62.5,review,/products/,Low demand; merge into product page if fitted (CONFIRM)
 https://energyconcernsltd.co.uk/battery-storage-oadby/,/battery-storage-oadby/,town-service,oadby,2,0,109,44,0,75,45.2,merge,/solar-panels-oadby/,Fold into Tier 2 town hub
 https://energyconcernsltd.co.uk/products/samsung-wind-free-elite/,/products/samsung-wind-free-elite/,product,,,0,109,12.8,0,64,13.8,review,/products/,Low demand; merge into product page if fitted (CONFIRM)
-https://energyconcernsltd.co.uk/tesla-powerwall-west-bromwich/,/tesla-powerwall-west-bromwich/,town-service,west-bromwich,outside,0,109,38.7,0,19,38.9,retire,/services/battery,"Outside target area, low traffic"
+https://energyconcernsltd.co.uk/tesla-powerwall-west-bromwich/,/tesla-powerwall-west-bromwich/,town-service,west-bromwich,avoid,0,109,38.7,0,19,38.9,retire,/services/battery,Outside target area
 https://energyconcernsltd.co.uk/ev-chargers-lutterworth/,/ev-chargers-lutterworth/,town-service,lutterworth,2,0,105,9.4,0,48,16.4,merge,/services/ev-charging,Not part of solar/battery hub; low demand
 https://energyconcernsltd.co.uk/products/samsung-wind-free-comfort/,/products/samsung-wind-free-comfort/,product,,,0,103,13.4,0,42,19.8,review,/products/,Low demand; merge into product page if fitted (CONFIRM)
-https://energyconcernsltd.co.uk/ev-chargers-bedworth/,/ev-chargers-bedworth/,town-service,bedworth,outside,0,102,29.9,0,48,40.6,retire,/services/ev-charging,"Outside target area, low traffic"
-https://energyconcernsltd.co.uk/ev-chargers-nuneaton/,/ev-chargers-nuneaton/,town-service,nuneaton,outside,0,100,15,0,34,22.3,retire,/services/ev-charging,"Outside target area, low traffic"
+https://energyconcernsltd.co.uk/ev-chargers-bedworth/,/ev-chargers-bedworth/,town-service,bedworth,nearby?,0,102,29.9,0,48,40.6,review,/ev-chargers-bedworth/,Close to Hinckley; include in target area? (CONFIRM)
+https://energyconcernsltd.co.uk/ev-chargers-nuneaton/,/ev-chargers-nuneaton/,town-service,nuneaton,warks,0,100,15,0,34,22.3,merge,/services/ev-charging,Not part of solar/battery hub; low demand
 https://energyconcernsltd.co.uk/ev-chargers-oadby/,/ev-chargers-oadby/,town-service,oadby,2,0,99,29.2,0,49,36.1,merge,/services/ev-charging,Not part of solar/battery hub; low demand
 https://energyconcernsltd.co.uk/tesla-powerwall-stoke-on-trent/,/tesla-powerwall-stoke-on-trent/,town-service,stoke-on-trent,outside,0,98,13.7,0,52,8.4,retire,/services/battery,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/battery-storage-telford,/battery-storage-telford,variant,,,0,95,8.5,0,0,,merge,/battery-storage-telford/,No-trailing-slash duplicate
@@ -425,7 +425,7 @@ https://energyconcernsltd.co.uk/battery-storage-coalville/,/battery-storage-coal
 https://energyconcernsltd.co.uk/ev-chargers-birmingham,/ev-chargers-birmingham,variant,,,0,78,34.4,0,0,,merge,/ev-chargers-birmingham/,No-trailing-slash duplicate
 https://energyconcernsltd.co.uk/ev-chargers-leamington-spa/,/ev-chargers-leamington-spa/,town-service,leamington-spa,outside,0,78,16.9,0,16,6.3,retire,/services/ev-charging,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/ev-chargers-tamworth/,/ev-chargers-tamworth/,town-service,tamworth,outside,0,78,13.6,0,0,,retire,/services/ev-charging,"Outside target area, low traffic"
-https://energyconcernsltd.co.uk/tesla-powerwall-rugby/,/tesla-powerwall-rugby/,town-service,rugby,outside,0,77,26,0,26,19.9,retire,/services/battery,"Outside target area, low traffic"
+https://energyconcernsltd.co.uk/tesla-powerwall-rugby/,/tesla-powerwall-rugby/,town-service,rugby,warks,0,77,26,0,26,19.9,merge,/solar-panels-rugby/,Fold into Tier warks town hub
 https://energyconcernsltd.co.uk/solar-panels-measham/,/solar-panels-measham/,town-hub,measham,2,0,76,27.4,0,43,22.6,move,/solar-panels-measham/,Tier 2 town hub: solar + battery + solar-and-battery
 https://energyconcernsltd.co.uk/givenergy-installer-milton-keynes/,/givenergy-installer-milton-keynes/,town-service,milton-keynes,3,0,74,14.8,0,0,,merge,/solar-panels-milton-keynes/,Fold into Tier 3 town hub
 https://energyconcernsltd.co.uk/givenergy-installer-wigston/,/givenergy-installer-wigston/,town-service,wigston,2,0,73,54.7,0,19,83,merge,/solar-panels-wigston/,Fold into Tier 2 town hub
@@ -433,15 +433,15 @@ https://energyconcernsltd.co.uk/battery-storage-lutterworth/,/battery-storage-lu
 https://energyconcernsltd.co.uk/products/samsung-wind-free-comfort,/products/samsung-wind-free-comfort,variant,,,0,71,9.1,0,0,,merge,/products/samsung-wind-free-comfort/,No-trailing-slash duplicate
 https://energyconcernsltd.co.uk/blog/solar-panels-lutterworth-le17/,/blog/solar-panels-lutterworth-le17/,blog-town,lutterworth,2,0,69,26.7,0,58,22.6,merge,/solar-panels-lutterworth/,Town guide: fold local content into Tier 2 hub
 https://energyconcernsltd.co.uk/givenergy-installer-leicester/,/givenergy-installer-leicester/,town-service,leicester,2,0,67,18,0,0,,merge,/solar-panels-leicester/,Fold into Tier 2 town hub
-https://energyconcernsltd.co.uk/tesla-powerwall-bedworth/,/tesla-powerwall-bedworth/,town-service,bedworth,outside,0,65,60.2,0,15,72.7,retire,/services/battery,"Outside target area, low traffic"
+https://energyconcernsltd.co.uk/tesla-powerwall-bedworth/,/tesla-powerwall-bedworth/,town-service,bedworth,nearby?,0,65,60.2,0,15,72.7,review,/tesla-powerwall-bedworth/,Close to Hinckley; include in target area? (CONFIRM)
 https://energyconcernsltd.co.uk/givenergy-installer-hereford/,/givenergy-installer-hereford/,town-service,hereford,outside,0,64,41,0,0,,retire,/services/battery,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/products/aiko-neostar-3s,/products/aiko-neostar-3s,variant,,,0,62,12.3,0,0,,merge,/products/aiko-neostar-3s/,No-trailing-slash duplicate
-https://energyconcernsltd.co.uk/tesla-powerwall-solihull/,/tesla-powerwall-solihull/,town-service,solihull,outside,0,62,17.2,0,18,21.3,retire,/services/battery,"Outside target area, low traffic"
+https://energyconcernsltd.co.uk/tesla-powerwall-solihull/,/tesla-powerwall-solihull/,town-service,solihull,avoid,0,62,17.2,0,18,21.3,retire,/services/battery,Outside target area
 https://energyconcernsltd.co.uk/givenergy-installer-leamington-spa/,/givenergy-installer-leamington-spa/,town-service,leamington-spa,outside,0,61,30.2,0,0,,retire,/services/battery,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/blog/solar-panels-coalville-guide,/blog/solar-panels-coalville-guide,variant,,,0,60,35.7,0,0,,merge,/blog/solar-panels-coalville-guide/,No-trailing-slash duplicate
 https://energyconcernsltd.co.uk/solar-panels-lincolnshire/,/solar-panels-lincolnshire/,town-service,lincolnshire,outside,0,60,18.2,0,60,18.2,retire,/services/solar,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/givenergy-installer-banbury,/givenergy-installer-banbury,variant,,,0,56,38.4,0,0,,merge,/givenergy-installer-banbury/,No-trailing-slash duplicate
-https://energyconcernsltd.co.uk/givenergy-installer-dudley/,/givenergy-installer-dudley/,town-service,dudley,outside,0,56,32.6,0,0,,retire,/services/battery,"Outside target area, low traffic"
+https://energyconcernsltd.co.uk/givenergy-installer-dudley/,/givenergy-installer-dudley/,town-service,dudley,avoid,0,56,32.6,0,0,,retire,/services/battery,Outside target area
 https://energyconcernsltd.co.uk/guides/re-roofing-and-solar-panels,/guides/re-roofing-and-solar-panels,variant,,,0,56,6.7,0,5,1,merge,/guides/re-roofing-and-solar-panels/,No-trailing-slash duplicate
 https://energyconcernsltd.co.uk/givenergy-installer-milton-keynes,/givenergy-installer-milton-keynes,variant,,,0,55,9.7,0,0,,merge,/givenergy-installer-milton-keynes/,No-trailing-slash duplicate
 https://energyconcernsltd.co.uk/solar-panels-ibstock/,/solar-panels-ibstock/,town-hub,ibstock,2,0,55,31,0,24,14.3,move,/solar-panels-ibstock/,Tier 2 town hub: solar + battery + solar-and-battery
@@ -452,7 +452,7 @@ https://energyconcernsltd.co.uk/ev-chargers-narborough/,/ev-chargers-narborough/
 https://energyconcernsltd.co.uk/givenergy-installer-glenfield/,/givenergy-installer-glenfield/,town-service,glenfield,2,0,50,63.4,0,25,72.4,merge,/solar-panels-glenfield/,Fold into Tier 2 town hub
 https://energyconcernsltd.co.uk/products/zappi-v2,/products/zappi-v2,variant,,,0,50,32.7,0,0,,merge,/products/zappi-v2/,No-trailing-slash duplicate
 https://energyconcernsltd.co.uk/blog/eco4-solar-panels-black-country-guide,/blog/eco4-solar-panels-black-country-guide,variant,,,0,49,20.6,0,0,,merge,/blog/eco4-solar-panels-black-country-guide/,No-trailing-slash duplicate
-https://energyconcernsltd.co.uk/givenergy-installer-coventry/,/givenergy-installer-coventry/,town-service,coventry,outside,0,47,24.7,0,11,25.3,retire,/services/battery,"Outside target area, low traffic"
+https://energyconcernsltd.co.uk/givenergy-installer-coventry/,/givenergy-installer-coventry/,town-service,coventry,warks,0,47,24.7,0,11,25.3,merge,/solar-panels-coventry/,Fold into Tier warks town hub
 https://energyconcernsltd.co.uk/givenergy-installer-narborough/,/givenergy-installer-narborough/,town-service,narborough,2,0,47,38.3,0,4,39.5,merge,/solar-panels-narborough/,Fold into Tier 2 town hub
 https://energyconcernsltd.co.uk/battery-storage-burbage/,/battery-storage-burbage/,town-service,burbage,1,0,46,45,0,4,18,merge,/solar-panels-burbage/,Fold into Tier 1 town hub
 https://energyconcernsltd.co.uk/ev-chargers-earl-shilton/,/ev-chargers-earl-shilton/,town-service,earl-shilton,1,0,46,21.2,0,8,38.1,merge,/services/ev-charging,Not part of solar/battery hub; low demand
@@ -496,7 +496,7 @@ https://energyconcernsltd.co.uk/air-conditioning-nottingham/,/air-conditioning-n
 https://energyconcernsltd.co.uk/products/hypervolt-home-3,/products/hypervolt-home-3,variant,,,0,30,12.9,0,0,,merge,/products/hypervolt-home-3/,No-trailing-slash duplicate
 https://energyconcernsltd.co.uk/givenergy-installer-tamworth/,/givenergy-installer-tamworth/,town-service,tamworth,outside,0,29,38.9,0,0,,retire,/services/battery,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/ev-chargers-thorpe-astley/,/ev-chargers-thorpe-astley/,town-service,thorpe-astley,2,0,28,35.5,0,12,41.3,merge,/services/ev-charging,Not part of solar/battery hub; low demand
-https://energyconcernsltd.co.uk/givenergy-installer-west-bromwich/,/givenergy-installer-west-bromwich/,town-service,west-bromwich,outside,0,28,40.5,0,3,56.3,retire,/services/battery,"Outside target area, low traffic"
+https://energyconcernsltd.co.uk/givenergy-installer-west-bromwich/,/givenergy-installer-west-bromwich/,town-service,west-bromwich,avoid,0,28,40.5,0,3,56.3,retire,/services/battery,Outside target area
 https://energyconcernsltd.co.uk/solar-calculator,/solar-calculator,variant,,,0,28,2.3,0,1,1,merge,/solar-calculator/,No-trailing-slash duplicate
 https://energyconcernsltd.co.uk/air-conditioning/,/air-conditioning/,core,,,0,27,24.2,0,27,24.2,merge,/services/air-conditioning,Old service page
 https://energyconcernsltd.co.uk/blog,/blog,variant,,,0,27,2.4,0,0,,merge,/blog/,No-trailing-slash duplicate
@@ -527,7 +527,7 @@ https://energyconcernsltd.co.uk/ev-chargers-thurmaston/,/ev-chargers-thurmaston/
 https://energyconcernsltd.co.uk/givenergy-installer-market-deeping,/givenergy-installer-market-deeping,variant,,,0,21,34.4,0,0,,merge,/givenergy-installer-market-deeping/,No-trailing-slash duplicate
 https://energyconcernsltd.co.uk/guides/solar-panel-maintenance-cleaning,/guides/solar-panel-maintenance-cleaning,variant,,,0,21,20.5,0,0,,merge,/guides/solar-panel-maintenance-cleaning/,No-trailing-slash duplicate
 https://energyconcernsltd.co.uk/tesla-powerwall-tamworth/,/tesla-powerwall-tamworth/,town-service,tamworth,outside,0,21,8.6,0,9,13.6,retire,/services/battery,"Outside target area, low traffic"
-https://energyconcernsltd.co.uk/givenergy-installer-rugby/,/givenergy-installer-rugby/,town-service,rugby,outside,0,20,10.5,0,0,,retire,/services/battery,"Outside target area, low traffic"
+https://energyconcernsltd.co.uk/givenergy-installer-rugby/,/givenergy-installer-rugby/,town-service,rugby,warks,0,20,10.5,0,0,,merge,/solar-panels-rugby/,Fold into Tier warks town hub
 https://energyconcernsltd.co.uk/givenergy-installer-solihull,/givenergy-installer-solihull,variant,,,0,20,39.2,0,0,,merge,/givenergy-installer-solihull/,No-trailing-slash duplicate
 https://energyconcernsltd.co.uk/givenergy-installer-stafford/,/givenergy-installer-stafford/,town-service,stafford,outside,0,20,41.2,0,0,,retire,/services/battery,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/make-a-payment/,/make-a-payment/,core,,,0,20,9.5,0,0,,review,,Needed if customers pay online
@@ -545,11 +545,11 @@ https://energyconcernsltd.co.uk/givenergy-installer-market-harborough,/givenergy
 https://energyconcernsltd.co.uk/givenergy-installer-redditch,/givenergy-installer-redditch,variant,,,0,16,44.5,0,0,,merge,/givenergy-installer-redditch/,No-trailing-slash duplicate
 https://energyconcernsltd.co.uk/givenergy-installer-wigston,/givenergy-installer-wigston,variant,,,0,16,40.6,0,0,,merge,/givenergy-installer-wigston/,No-trailing-slash duplicate
 https://energyconcernsltd.co.uk/products/solaredge-hd-wave,/products/solaredge-hd-wave,variant,,,0,16,18,0,0,,merge,/products/solaredge-hd-wave/,No-trailing-slash duplicate
-https://energyconcernsltd.co.uk/tesla-powerwall-atherstone/,/tesla-powerwall-atherstone/,town-service,atherstone,outside,0,16,51.6,0,4,6.3,retire,/services/battery,"Outside target area, low traffic"
+https://energyconcernsltd.co.uk/tesla-powerwall-atherstone/,/tesla-powerwall-atherstone/,town-service,atherstone,nearby?,0,16,51.6,0,4,6.3,review,/tesla-powerwall-atherstone/,Close to Hinckley; include in target area? (CONFIRM)
 https://energyconcernsltd.co.uk/ev-chargers-ashby-de-la-zouch,/ev-chargers-ashby-de-la-zouch,variant,,,0,15,22.3,0,0,,merge,/ev-chargers-ashby-de-la-zouch/,No-trailing-slash duplicate
 https://energyconcernsltd.co.uk/ev-chargers-syston,/ev-chargers-syston,variant,,,0,15,12.8,0,0,,merge,/ev-chargers-syston/,No-trailing-slash duplicate
 https://energyconcernsltd.co.uk/givenergy-installer-birmingham,/givenergy-installer-birmingham,variant,,,0,15,51.3,0,0,,merge,/givenergy-installer-birmingham/,No-trailing-slash duplicate
-https://energyconcernsltd.co.uk/givenergy-installer-wolverhampton/,/givenergy-installer-wolverhampton/,town-service,wolverhampton,outside,0,15,41,0,0,,retire,/services/battery,"Outside target area, low traffic"
+https://energyconcernsltd.co.uk/givenergy-installer-wolverhampton/,/givenergy-installer-wolverhampton/,town-service,wolverhampton,avoid,0,15,41,0,0,,retire,/services/battery,Outside target area
 https://energyconcernsltd.co.uk/tesla-powerwall-narborough/,/tesla-powerwall-narborough/,town-service,narborough,2,0,15,21.7,0,1,11,merge,/solar-panels-narborough/,Fold into Tier 2 town hub
 https://energyconcernsltd.co.uk/battery-storage-narborough/,/battery-storage-narborough/,town-service,narborough,2,0,14,21,0,3,12,merge,/solar-panels-narborough/,Fold into Tier 2 town hub
 https://energyconcernsltd.co.uk/battery-storage-stoke-on-trent,/battery-storage-stoke-on-trent,variant,,,0,14,9.7,0,0,,merge,/battery-storage-stoke-on-trent/,No-trailing-slash duplicate
@@ -580,7 +580,7 @@ https://energyconcernsltd.co.uk/givenergy-installer-ibstock/,/givenergy-installe
 https://energyconcernsltd.co.uk/battery-storage-braunstone-town/,/battery-storage-braunstone-town/,town-service,braunstone-town,2,0,9,4,0,2,6.5,merge,/solar-panels-braunstone-town/,Fold into Tier 2 town hub
 https://energyconcernsltd.co.uk/battery-storage-solihull,/battery-storage-solihull,variant,,,0,9,4.3,0,0,,merge,/battery-storage-solihull/,No-trailing-slash duplicate
 https://energyconcernsltd.co.uk/givenergy-installer-leamington-spa,/givenergy-installer-leamington-spa,variant,,,0,9,4.2,0,0,,merge,/givenergy-installer-leamington-spa/,No-trailing-slash duplicate
-https://energyconcernsltd.co.uk/givenergy-installer-solihull/,/givenergy-installer-solihull/,town-service,solihull,outside,0,9,46.1,0,0,,retire,/services/battery,"Outside target area, low traffic"
+https://energyconcernsltd.co.uk/givenergy-installer-solihull/,/givenergy-installer-solihull/,town-service,solihull,avoid,0,9,46.1,0,0,,retire,/services/battery,Outside target area
 https://energyconcernsltd.co.uk/givenergy-installer-syston,/givenergy-installer-syston,variant,,,0,9,40.6,0,0,,merge,/givenergy-installer-syston/,No-trailing-slash duplicate
 https://energyconcernsltd.co.uk/products/fox-ess-ep-h,/products/fox-ess-ep-h,variant,,,0,9,7.7,0,0,,merge,/products/fox-ess-ep-h/,No-trailing-slash duplicate
 https://energyconcernsltd.co.uk/sitemap/,/sitemap/,core,,,0,9,6.3,0,0,,retire,/,Framer generates sitemap.xml
@@ -607,7 +607,7 @@ https://energyconcernsltd.co.uk/battery-storage-melton-mowbray,/battery-storage-
 https://energyconcernsltd.co.uk/battery-storage-nottingham,/battery-storage-nottingham,variant,,,0,6,8.7,0,0,,merge,/battery-storage-nottingham/,No-trailing-slash duplicate
 https://energyconcernsltd.co.uk/ev-chargers-braunstone-town,/ev-chargers-braunstone-town,variant,,,0,6,3.8,0,0,,merge,/ev-chargers-braunstone-town/,No-trailing-slash duplicate
 https://energyconcernsltd.co.uk/ev-chargers-narborough,/ev-chargers-narborough,variant,,,0,6,64.3,0,0,,merge,/ev-chargers-narborough/,No-trailing-slash duplicate
-https://energyconcernsltd.co.uk/givenergy-installer-bedworth/,/givenergy-installer-bedworth/,town-service,bedworth,outside,0,6,39.8,0,0,,retire,/services/battery,"Outside target area, low traffic"
+https://energyconcernsltd.co.uk/givenergy-installer-bedworth/,/givenergy-installer-bedworth/,town-service,bedworth,nearby?,0,6,39.8,0,0,,review,/givenergy-installer-bedworth/,Close to Hinckley; include in target area? (CONFIRM)
 https://energyconcernsltd.co.uk/givenergy-installer-redditch/,/givenergy-installer-redditch/,town-service,redditch,outside,0,6,19.8,0,0,,retire,/services/battery,"Outside target area, low traffic"
 https://energyconcernsltd.co.uk/#our-process,/,core,,,0,5,1.4,0,0,,move,/,Home. Framer /home-v2 must become /
 https://energyconcernsltd.co.uk/#why-us,/,core,,,0,5,1.4,0,0,,move,/,Home. Framer /home-v2 must become /
@@ -638,12 +638,12 @@ https://energyconcernsltd.co.uk/battery-storage-oxford,/battery-storage-oxford,v
 https://energyconcernsltd.co.uk/battery-storage-sheshed/,/battery-storage-sheshed/,town-service,shepshed,2,0,1,1,0,1,1,merge,/solar-panels-shepshed/,Fold into Tier 2 town hub
 https://energyconcernsltd.co.uk/battery-storage-the-future-of-energy-storage/,/battery-storage-the-future-of-energy-storage/,town-service,the-future-of-energy-storage,outside,0,1,1,0,1,1,retire,/services/battery,Not a real town page
 https://energyconcernsltd.co.uk/battery-storage/market-harborough/,/battery-storage/market-harborough/,service-sub,,,0,1,1,0,1,1,retire,/services/battery,Old service sub-page
-https://energyconcernsltd.co.uk/blog/commercial-solar-lesticestershire-businesses-2026/,/blog/commercial-solar-lesticestershire-businesses-2026/,blog,,,0,1,1,0,1,1,retire,/blog/,"No clicks, little demand"
+https://energyconcernsltd.co.uk/blog/commercial-solar-lesticestershire-businesses-2026/,/blog/commercial-solar-lesticestershire-businesses-2026/,blog-commercial,,,0,1,1,0,1,1,move,/blog/commercial-solar-lesticestershire-businesses-2026/,"Commercial work is a target (Todd, 14 Nov)"
 https://energyconcernsltd.co.uk/blog/solar-panels-kettering-corby-guide,/blog/solar-panels-kettering-corby-guide,variant,,,0,1,91,0,0,,merge,/blog/solar-panels-kettering-corby-guide/,No-trailing-slash duplicate
 https://energyconcernsltd.co.uk/blog/solar-panels-milton-keynes-guide,/blog/solar-panels-milton-keynes-guide,variant,,,0,1,15,0,0,,merge,/blog/solar-panels-milton-keynes-guide/,No-trailing-slash duplicate
 https://energyconcernsltd.co.uk/energyconcernsltd.co.uk/blogs/givenergy-alternatives-uk/,/energyconcernsltd.co.uk/blogs/givenergy-alternatives-uk/,other,,,0,1,1,0,1,1,review,,Unclassified
 https://energyconcernsltd.co.uk/ev-chargers-kettering,/ev-chargers-kettering,variant,,,0,1,1,0,1,1,merge,/ev-chargers-kettering/,No-trailing-slash duplicate
-https://energyconcernsltd.co.uk/givenergy-installer-atherstone/,/givenergy-installer-atherstone/,town-service,atherstone,outside,0,1,37,0,0,,retire,/services/battery,"Outside target area, low traffic"
+https://energyconcernsltd.co.uk/givenergy-installer-atherstone/,/givenergy-installer-atherstone/,town-service,atherstone,nearby?,0,1,37,0,0,,review,/givenergy-installer-atherstone/,Close to Hinckley; include in target area? (CONFIRM)
 https://energyconcernsltd.co.uk/givenergy-installer-measham/,/givenergy-installer-measham/,town-service,measham,2,0,1,9,0,1,9,merge,/solar-panels-measham/,Fold into Tier 2 town hub
 https://energyconcernsltd.co.uk/givenergy-installer-rugby,/givenergy-installer-rugby,variant,,,0,1,51,0,0,,merge,/givenergy-installer-rugby/,No-trailing-slash duplicate
 https://energyconcernsltd.co.uk/guides/battery-storage-what-size,/guides/battery-storage-what-size,variant,,,0,1,1,0,1,1,merge,/guides/battery-storage-what-size/,No-trailing-slash duplicate
